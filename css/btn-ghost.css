@@ -17,6 +17,10 @@ a.btn-ghost:hover {
     color: #fff !important;
 }
 
-#adSense1 {
+#AdSense1 {
+    text-align: center;
+}
+
+.AdSense1 {
     text-align: center;
 }
