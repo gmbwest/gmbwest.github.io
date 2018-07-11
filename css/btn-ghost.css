@@ -28,5 +28,14 @@ hr.line-break {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-
+.facebookholder {
+position:relative;
+float:left;
+width:335px;
+height:70px;
+background:#f8f8f8;
+border-radius:6px;
+border:1px solid #e2e2e2;
+margin-bottom:20px;
+}
 
