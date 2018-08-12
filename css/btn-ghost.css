@@ -55,7 +55,15 @@ margin-bottom:20px;
     z-index: 999;
     display: none;
 }
-
+.show .img-show{
+    width: 260px;
+    height: 190px;
+    background: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+    overflow: hidden
 
 }
 .img-show span{
