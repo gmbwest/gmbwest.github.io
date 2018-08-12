@@ -41,6 +41,11 @@ margin-bottom:20px;
 
 .mySlides {display:none;}
 
+.popup{
+    width: 900px;
+    margin: auto;
+    text-align: center
+}
 
 .popup img{
     width: 200px;
@@ -52,7 +57,7 @@ margin-bottom:20px;
     display: none;
 }
 .show .overlay{
-    width: 200%;
+    width: 500%;
     height: 100%;
     background: rgba(0,0,0,.66);
     position: absolute;
