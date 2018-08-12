@@ -42,8 +42,8 @@ margin-bottom:20px;
 .mySlides {display:none;}
 
 .popup img{
-    width: 250px;
-    height: 310px;
+    width: 350px;
+    height: 410px;
     cursor: pointer
 }
 .show{
