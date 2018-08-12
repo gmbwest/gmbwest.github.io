@@ -51,16 +51,16 @@ margin-bottom:20px;
     display: none;
 }
 .show .overlay{
-    width: 500%;
-    height: 100%;
+    width: 300%;
+    height: 90%;
     background: rgba(0,0,0,.66);
     position: absolute;
     top: 0;
     left: 0;
 }
 .show .img-show{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 350px;
     background: #FFF;
     position: absolute;
     top: 50%;
@@ -70,16 +70,16 @@ margin-bottom:20px;
 }
 .img-show span{
     position: absolute;
-    top: 10px;
+    top: 5px;
     right: 10px;
     z-index: 99;
     cursor: pointer;
 }
 .img-show img{
-    width: 70%;
+    width: 80%;
     height: 90%;
     position: absolute;
-    top: 25px;
-    left: 70px;
+    top: 20px;
+    left: 30px;
  
 }
