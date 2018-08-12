@@ -47,10 +47,12 @@ margin-bottom:20px;
     cursor: pointer
 }
 .show .overlay{
+    width: 100%;
+    height: 100%;
     background: rgba(0,0,0,.66);
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 30;
+    left: 40;
 }
 .show .img-show{
     width: 300px;
