@@ -42,13 +42,13 @@ margin-bottom:20px;
 .mySlides {display:none;}
 
 .popup{
-    width: 100px;
+    width: 900px;
     margin: auto;
     text-align: center
 }
 .popup img{
-    width: 200px;
-    height: 200px;
+    width: 260px;
+    height: 193px;
     cursor: pointer
 }
 .show{
