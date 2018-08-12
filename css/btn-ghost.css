@@ -46,18 +46,7 @@ margin-bottom:20px;
     height: 210px;
     cursor: pointer
 }
-.show{
-    z-index: 999;
-    display: none;
-}
-.show .overlay{
-    width: 300%;
-    height: 90%;
-    background: rgba(0,0,0,.66);
-    position: absolute;
-    top: 0;
-    left: 0;
-}
+
 .show .img-show{
     width: 300px;
     height: 350px;
