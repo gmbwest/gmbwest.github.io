@@ -62,7 +62,7 @@ margin-bottom:20px;
     background: #FFF;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 10%;
     transform: translate(-50%,-50%);
     overflow: hidden
 }
