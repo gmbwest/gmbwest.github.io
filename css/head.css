@@ -1,13 +1,3 @@
-
-    <b:skin><![CDATA[/*
------------------------------------------------
-*
-*
-*
-*
-*
------------------------------------------------ */
-
 /* Reset and Generals
 ---------------------------------------------- */
 /*********************************************/
@@ -1771,7 +1761,3 @@ padding-left:0px !important;
 
 #label_with_thumbs a { text-transform: uppercase;}
 #label_with_thumbs strong {padding-left:0px; }
-
-#ContactForm1{display: none !important;}
-
-]]></b:skin>
