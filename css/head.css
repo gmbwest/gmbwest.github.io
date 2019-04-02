@@ -1,0 +1,2649 @@
+
+    <b:skin><![CDATA[/*
+-----------------------------------------------
+*
+*
+*
+*
+*
+----------------------------------------------- */
+
+/* Reset and Generals
+---------------------------------------------- */
+/*********************************************/
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block
+}
+audio,
+canvas,
+video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+[hidden] {
+    display: none
+}
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+html,
+button,
+input,
+select,
+textarea {
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+}
+a:focus {
+    outline: thin dotted;
+}
+a:active,
+a:hover {
+    outline: 0;
+}
+h1 {
+    font-size: 2em;
+    margin: .67em 0;
+}
+h2 {
+    font-size: 1.5em;
+    margin: .83em 0;
+}
+h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+h5 {
+    font-size: .83em;
+    margin: 1.67em 0;
+}
+h6 {
+    font-size: .75em;
+    margin: 2.33em 0;
+}
+abbr[title] {
+    border-bottom: 1px dotted
+}
+b,
+strong {
+    font-weight: bold;
+}
+blockquote {
+    margin: 1em 40px;
+}
+dfn {
+    font-style: italic;
+}
+mark {
+    background: #ff0;
+    color: #000;
+}
+p,
+pre {
+    margin: 1em 0;
+}
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, serif;
+    _font-family: 'courier new', monospace;
+    font-size: 1em;
+}
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+small {
+    font-size: 75%;
+}
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {
+    top: -0.5em;
+}
+sub {
+    bottom: -0.25em;
+}
+dl,
+menu,
+ol,
+ul {
+    margin: 1em 0;
+}
+dd {
+    margin: 0 0 0 40px;
+}
+menu,
+ol,
+ul {
+    padding: 0 0 0 40px;
+}
+nav ul,
+nav ol {
+    list-style: none;
+    list-style-image: none;
+}
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+figure {
+    margin: 0;
+}
+form {
+    margin: 0;
+}
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: .35em .625em .75em;
+}
+legend {
+    border: 0;
+    padding: 0;
+    white-space: normal;
+    *margin-left: -7px;
+}
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+    *vertical-align: middle;
+}
+button,
+input {
+    line-height: normal;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    *overflow: visible;
+}
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+    *height: 13px;
+    *width: 13px;
+}
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+    line-height: 0 ;
+}
+.clearfix:after {
+    clear: both;
+}
+
+a img {
+	border: 0;
+}
+a img:hover {
+  -webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+embed, iframe, object {
+	max-width: 100%;
+}
+
+.section {
+margin: 0;
+padding: 0;
+}
+
+.widget {
+    margin: 20px 0;
+    _margin: 0 0 10px;
+
+} 
+
+
+/* Struture
+----------------------------------------------- */
+
+body {
+color: #333;
+font: 16px/1rem 'Roboto', sans-serif;
+line-height: 20px;
+word-wrap: break-word;
+font-weight: 300;
+text-rendering: optimizeLegibility;
+}
+ body {
+background-color:#e1e1e1;
+
+}
+
+
+#outer-wrapper {
+background-color: #fff;
+margin:  0px auto;
+max-width: 1100px;
+overflow: hidden;
+}
+
+
+@media screen and (max-width: 640px) {
+html,
+body {background-color: #f5f5f5;}
+#outer-wrapper {margin: 0px auto; padding: 1%;}
+}
+
+
+
+#content-wrapper {
+max-width: 1067px;
+margin: 10px auto;
+position: relative;
+overflow: hidden;
+!important;
+
+}
+
+#main-wrapper {
+
+  float: left;
+  width: 69%;
+  word-wrap: break-word;
+  oerflow: hidden;
+}
+
+#sidebar-wrapper {
+  float: right;
+  width: 31%;
+  word-wrap: break-word;
+  overflow: hidden; 
+}
+
+
+#top-barnbt {
+
+width: 20%;
+
+}
+
+
+
+
+/* Typography
+----------------------------------------------- */
+
+a:link,
+a:visited {
+  color: #ff4e50;
+  text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+  color: #ff4e50;
+  outline: 0;
+  text-decoration: none;
+  -webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+
+a img {
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+}
+
+img {
+    max-width: 100%;
+    width: auto\9;
+height: auto;
+}
+
+.navbar,
+#navbar-iframe {
+  height: 0;
+  visibility: hidden;
+  display: none;
+}
+
+/* Header
+----------------------------------------------- */
+
+#header-wrapper {
+margin: 10px auto;
+overflow:hidden;
+padding: 0px 0px;
+min-height: 0px;
+}
+
+#header-inner {
+  background-position: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*---Header-top MENU / SOCIAL--------------*/
+
+#header-top {
+  background: #333;
+	border-top: 3px solid #ff4e50;
+ 	height: auto;
+	color: #fff;
+	overflow:hidden;
+position:relative;
+	margin: 0 auto;
+	padding: 15px 3%;
+width: 100%;
+}
+
+#top-navigation {
+    width: 50%;
+    position: relative;
+	float: left;
+	margin: 0 auto;
+	padding:0;
+}
+
+#top-navigation li a {
+   font-size: 75%;
+   text-transform: uppercase;
+   
+   padding:0 0.200rem;
+   color:#999;
+   font-weight:100;
+}
+#top-navigation li a:hover {
+   color: #ff4e50;
+   }
+
+#top-navigation li {
+    display:inline;
+}
+
+/* Social Media Top Icons
+----------------------------------------------- */
+#socialmedia a .fa {
+background: #fff;
+color: #333;
+display: inline-block;
+font-size: 13px;
+width: 21px;
+height: 21px;
+line-height: 21px;
+text-align: center;
+padding:0;
+
+}
+#socialmedia .fa:hover {
+color: #fff;
+background-color: #ff4e50;
+}
+
+#socialmedia > a > i {
+display:inline;
+}
+
+#socialmedia {
+float:right;
+position: relative;
+	width: 50%;
+    text-align: right;
+
+}
+
+
+
+@media screen and (max-width: 800px){
+#socialmedia,
+#top-navigation {width:auto;float:none;text-align:center; display: none;}
+}
+
+
+.nivoSlider {
+position:relative;
+width:100%;
+height:auto;
+height: 20px;
+overflow: hidden;
+}
+
+
+
+.top-container {
+    margin: 0 auto;
+    max-width: 1140px;
+
+}
+
+.header-container {
+margin:0 auto;
+max-width: 1068px;
+}
+
+.btd-container {
+margin:0 auto;
+max-width: 1068px;
+}
+
+.headerleft {
+background: #fff;
+float: left;
+width: 30%;
+margin: 0 auto;
+position: relative;
+  display: inline-block;
+
+}
+
+#header {
+margin: 0 auto;
+padding: 0;
+text-align: ;
+}
+
+#header h1, #header h2 {
+  color: #171717;
+  margin: 0 auto 10px;
+  padding:0;
+  line-height: 1.4em;
+  text-transform: none;
+  letter-spacing: -0.02em;
+  font: 700 250% Roboto, sans-serif;
+}
+
+#header h1 a, #header h2 a {
+  color: #171717;
+  text-decoration: none;
+}
+
+#header a:hover {
+  color: #d35400;
+}
+
+#header .description {
+  margin: 0 auto 5px;
+  padding: 0;
+  text-transform: uppercase;
+  letter-spacing: .0em;
+  line-height: 1.4em;
+  font-size: 0.757rem;
+  color: #171717;
+}
+
+#header img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#adsense {
+ float: right;
+margin: 0 auto;
+max-height: 90px;
+    max-width: 728px;
+overflow: hidden;
+}
+
+.banner728 {
+    position: relative;
+ }
+ 
+#adsense h2 {
+  display:none; 
+}
+
+
+#top-barnbt {
+ font-size: 10px;
+}
+
+@media screen and (max-width: 999px) {
+
+.headerleft {
+    float: none;
+    width: 100%;
+
+display: none;
+}
+.headerright {
+float: center;
+width: 100%;
+}
+
+
+.crosscol {
+margin-bottom :10px;
+float: center;
+width: 100%;
+display: none;
+
+}
+
+
+
+}
+
+
+#top-barnbt {
+	font-size: 10px;
+}
+
+
+
+/* -------------PRIMARY NAV MENU--------------- */
+
+.toggleMenu {
+    display: none;
+    background: #ff4e50;
+    padding: 0 15px;
+	height: 48px;
+	line-height: 48px;
+    color: #fff !important;
+}
+
+#nav-bar {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	background: #333;
+	height: 48px;
+	line-height: 48px;
+	text-transform:uppercase;
+	border-bottom: 3px solid #ff4e50;
+}
+ul.nav-menu {
+	background: #333;
+    list-style: none;
+	margin: 0;
+	padding:0;
+     *zoom: 1;
+	float: left;  
+}
+ul.nav-menu:before,
+ul.nav-menu:after {
+    content: " "; 
+    display: table; 
+}
+ul.nav-menu:after {
+    clear: both;
+}
+ul.nav-menu ul {
+    list-style: none;
+	margin:0;
+	padding:0;
+    width: 10em;
+}
+ul.nav-menu li {
+    position: relative;
+	margin: 0 0;
+}
+ul.nav-menu > li {
+    float: left;
+}
+ul.nav-menu > li > .parent { }
+ul.nav-menu li ul {
+    position: absolute;
+    left: -9999px;
+}
+ul.nav-menu > li.hover > ul {
+    left: 0;
+}
+ul.nav-menu li li.hover ul {
+    left: 100%;
+    top: 0;
+}
+ul.nav-menu a.active {
+	background: #ff4e50;
+}
+ul.nav-menu li a {
+	display: block;
+    padding: 0 20px;
+    color: #fff;
+	height: 45px;
+	line-height: 45px;
+}
+ul.nav-menu li li a {
+    display: block;
+    background: #fff;
+	color: #222;
+    position: relative;
+    z-index: 100;
+	height: 40px;
+	line-height: 40px;
+	font-size: 0.85em;
+}
+ul.nav-menu li li li a {
+    background: #fff;
+    z-index: 200;
+}
+ul.nav-menu a:hover, ul.nav-menu a.active:hover {
+	background: #ff4e50;
+}
+
+#search-form {
+	background: #333;
+	float: right;
+	margin: 0;
+	position: relative;
+height: 48px;
+border-bottom: 3px solid #ff4e50;
+}
+#search-form input#search-box[type="text"] {
+	background: #222;
+	font-size: 0.85em;
+	height: 35px;
+	line-height: 32px;
+	margin: 0;
+	padding: 0 10px;
+	width: 150px;
+	color: #777;
+	border: none;
+	text-transform: auto;
+}
+#search-form input#search-button[type="submit"] {
+	background: #ff4e50;
+	color: #fff;
+	width: 48px;
+	height: 48px;
+	line-height: 48px;
+	margin-right: -1px;
+	padding: 0;
+	border: none;
+	text-transform: auto;
+}
+
+#search-form input#search-button[type="submit"]:hover{
+	background: #000;
+}
+#search-form input#search-box[type="text"]:focus {
+	background: #eee;
+	outline: none;
+}
+
+@media screen and (max-width: 768px) {
+    .active {
+        display: block;
+    }
+	ul.nav-menu a.active {
+		background: transparent;
+	}
+	#search-form {
+		width: 100%;
+		margin: 0 0 0 0 !important;
+	}
+    ul.nav-menu > li {
+        float: none;
+    }
+    ul.nav-menu > li > .parent {
+        background-position: 95% 50%;
+    }
+
+	ul.nav-menu {
+		float: none;
+		width: 100%;
+	}
+    ul.nav-menu ul {
+        display: block;
+        width: 100%;
+		float: none;
+    }
+	ul.nav-menu > li.hover > ul , ul.nav-menu li li.hover ul {
+        position: static;
+    }
+	#search-form {
+		background: #666;
+	}
+
+}
+
+#top-barnbt {
+
+	font-size: 10px;
+}
+
+/* Posts
+----------------------------------------------- */
+.date-header {
+  margin: 1.5em 0 .5em;
+  display:none;
+}
+
+/********
+----------------------------------------------- */
+
+
+
+
+.post-outer > div {
+  position: relative;
+}
+
+.index-post {
+float: left;
+margin: 0.0 px;
+overflow: hidden;
+padding: 25px;
+position: relative;
+width: 49%;
+height: 400px;
+}
+
+.index-post .index-title {
+  font-size: 130%;
+  font-weight: 600;
+  margin: 0 0 0 0;
+padding: 0 px;
+line-height: 1.1em;
+
+}
+
+
+.index-post a {
+font-weight: 700;
+  color:#171717;
+  }
+
+.index-post a:hover {
+  color: #ff4e50;
+  }
+
+
+.index-post .index-title h2 {
+  
+  color:#171717;
+  text-align: left;
+
+}
+
+.index-post .index-thumbnail {
+  overflow:hidden;position:relative;height:auto;margin:0 auto 5px auto;padding:0;z-index:1;
+}
+
+.index-post .entry-content { margin:10px auto 0;padding:0 0 20px;border-bottom: 1px solid #eee;font-size:85%; }
+
+
+
+.index-post .entry-content { margin:10px auto 0;padding:0 0 20px;border-bottom: 1px solid #eee;font-size:85%; }
+.index-post .index-thumbnail img {
+width: 100% !important;
+height: auto !important;
+transform:scale(1.0);backface-visibility:hidden;padding:0;margin:0;transition:transform .6s;
+}
+
+
+
+.index-post .index-contents {
+  font-size: 100%;
+  min-height: 0px;
+  text-align: left;
+  margin: 0px; 
+}
+
+
+
+
+.index-contents {
+  font-size: 95%;
+  color: #171717;
+  min-height: 25px;
+  text-align: left;
+}
+
+
+.index-post-header {
+  padding: 0;
+  font-size: 12px; 
+display: none;
+}
+
+.index-post-header > * {
+  margin-right: 1em;
+display: none;
+}
+
+.index-post .post-timestamp {
+  margin-left: 0px;
+  display: none; 
+}
+
+.post {
+	margin:  10px;
+	text-align: left;
+	 
+}
+
+h1.post-title, h2.post-title {
+  margin: .25em 0 0;
+  padding: 0 0 2px;
+  font-size: 200%;
+  font-weight: 200;
+  line-height: 1.1em;
+
+}
+
+h1.post-title a, h2.post-title a, h1.post-title a:visited, h2.post-title a:visited, h1.post-title strong, h2.post-title strong {
+  display: block;
+  text-decoration: none;
+
+}
+
+h1.post-title strong, h1.post-title a:hover, h2.post-title strong, h2.post-title a:hover {
+  color: #777;
+}
+
+.post-header {
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 1rem;
+    line-height: 24px;
+    min-height: 17px;
+
+}
+
+.post-body {
+  margin: 0px;
+  line-height: 1.6em;
+
+}
+
+.post-body blockquote {
+  line-height: 1.3em;
+
+
+}
+
+.post-footer {
+  margin: 20px auto;
+  padding: 5px;
+  color: #777;
+  text-transform: uppercase;
+  letter-spacing: .0em;
+  font-size: 12px;
+  line-height: 1.4em;
+}
+
+.comment-link {
+  margin-left: .6em;
+}
+.post-body img, table.tr-caption-container, .tr-caption-container img {
+  max-width: 100%;
+  height:auto;
+  border: auto;
+  padding: 0;
+}
+
+.post-body blockquote {
+  background: #f9f9f9;
+  font-size: 1.3em;
+  font-style:italic;
+  border-left: 8px solid #ccc;
+  border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+
+}
+
+.post-body blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;  
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+
+
+}
+
+.post-body  blockquote:after {
+    content: close-quote; /* could be content:close-quote; */
+	color: #ccc;
+	font-size: 4em;  
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+	}
+
+.post-body blockquote p {
+  display: inline;
+  margin: .75em 0;
+
+}
+
+/* Hiding Header Date and Feed Links
+----------------------------------------------- */
+
+.date-header,span.blog-admin{display:none;}
+div.status-msg-body > b {
+display: block!important;
+
+}
+div.status-msg-bg, div.status-msg-wrap {
+
+}
+
+.status-msg-wrap {
+    font-size: 150%;
+	width: 100%;
+    margin-bottom:30px;
+	position: relative;
+}
+
+.status-msg-border {
+    border: 0px solid #000;
+}
+
+.status-msg-bg {
+    background-color: #ccc;
+	margin: 0px;
+	padding: 10px 10px;
+}
+
+.status-msg-hidden {
+    visibility: hidden;
+    padding: 0;
+}
+
+.status-msg-body {
+    text-align: left;
+    padding: 10px 20px;
+    width: 100%;
+    position: absolute;
+    z-index: 4;
+}
+
+/* Code Styling
+----------------------------------------------- */
+code {
+    position: relative;
+    top: -1px;
+    border: auto;
+    background-color: #F1F1F1;
+    padding: 2px 6px;
+}
+
+pre {
+    background-color: #f1f1f1;
+    padding: 4px 10px 4px 10px;
+    border: none;
+    border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ccc;
+    margin-top: 24px;
+}
+
+.full-width .content, body.error404 .content {
+width : 100%;
+float : center;
+}
+
+
+
+/* Comments
+----------------------------------------------- */
+
+
+# h4 {
+  margin: 1em 0;
+  font-weight: bold;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  color: #ff4e50;
+}
+
+#comments-block {
+  background: #FFF;
+  margin: 1em 0 1.5em;
+  line-height: 1.6em;
+}
+#comments-block .comment-author {
+  margin: .5em 0;
+}
+#comments-block .comment-body {
+  margin: .25em 0 0;
+}
+#comments-block .comment-footer {
+  margin: -.25em 0 2em;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+#comments-block .comment-body p {
+  margin: 0 0 .75em;
+}
+.deleted-comment {
+  font-style: italic;
+  color: gray;
+}
+
+#blog-pager-newer-link {
+  float: left;
+display: none !important;
+}
+
+#blog-pager-older-link {
+  float: right;
+display: none !important;
+}
+
+#blog-pager {
+  text-align: center;
+display: none !important;
+}
+
+/* Page Navigation
+-------------------------------------------- */
+ #blog-pager{clear:both;margin:30px auto;text-align:center; }
+
+.blog-pager,
+#blog-pager {
+font-weight:400;
+font-size:90%;
+width:100%;
+padding:17px;
+} 
+.showpageNum a,
+.showpage a {
+background:#444; 
+color:#FFF; 
+margin-right:.4em;
+padding:5px 10px;
+} 
+.showpageNum a:hover,
+.showpage a:hover {
+background:#ff4e50;
+ color:#FFF;
+}
+.showpageOf{
+margin:0 8px 0 0;
+text-decoration:none;
+font-size:85%;
+display:none!important;
+}
+.showpagePoint {
+background:#ff4e50; 
+color:#FFF; 
+margin-right:.6em;
+text-decoration:none;
+font-size:14px;
+line-height:0;
+text-align:center;
+padding:5px 10px;
+}
+
+
+.post-navigation{clear:both;margin:0 auto;overflow:hidden;border:1px solid #dedede;}
+.post-navigation div{display:block;width:43%;position:relative;font-size:14px;color:#999;padding-top:10px;padding-bottom:20px;}
+.post-previous{float:right;text-align:right;padding-right:7%;line-height:1.2em}
+.post-next{float:left;padding-left:7%;line-height:1.2em}
+.post-navigation div span{display:block;font-size:80%;color:#999}
+.post-navigation .prv,.post-navigation .nxt{position:absolute;color:#ccc;font-size:35px;margin-top:-11px;height:30px;line-height:22px;top:35%;width:30px}
+.post-navigation h5 {font-size:130%;margin: 10px auto 0;padding:0;color:#444;}
+.post-navigation h6 {font-size:100%;margin: 10px auto 0;line-height:1.1em;}
+.post-previous .prv{right:10px}
+.post-next .nxt{left:10px}
+
+.feed-links {
+  clear: both;
+  line-height: 2.5em;
+  display: none;
+}
+
+
+/* CSS Author Bio Box by GMB Design */
+.authorboxwrap{margin:10px auto 20px;padding:20px;overflow:hidden;border:1px solid #ccc;}
+.avatar-container {float:left;margin-right:20px;border: 1px solid silver;padding: 3px;}
+.avatar-container img{width:110px;height:auto;}
+.author_description_container h4{font-weight:700;font-size:16px;display:block;margin:0;margin-bottom:2px}
+.author_description_container h4 a{color:#171717}
+.author_description_container h4 a:hover{color:#404040}
+.author_description_container p{margin:0;color:#888;font-size:95%;margin-bottom:8px;}
+.authorsocial a{display:inline-block;text-align:center;margin-right:10px}
+.authorsocial a i{font-family:Fontawesome;width:20px;height:20px;line-height:20px;padding:5px;display:block;opacity:1;border-radius:50%;transition:all .3s;}
+.authorsocial a:nth-child(1) i {background:#2d609b;color:#fff;}
+.authorsocial a:nth-child(2) i {background:#19bfe5;color:#fff;}
+.authorsocial a:nth-child(3) i {background:#eb4026;color:#fff;}
+.authorsocial a:hover:nth-child(1) i,.authorsocial a:hover:nth-child(2) i,.authorsocial a:hover:nth-child(3) i {opacity:0.90;}
+
+
+/* Sidebar Content
+----------------------------------------------- */
+.sidebar {
+  color: #666;
+  font-size: 13px;
+  line-height: 1.5em;
+}
+
+.sidebar h2 {
+font-size: 1.0rem;
+border-bottom: 3px solid #e6e6e6;
+margin: 0 auto 20px;
+padding-bottom: 5px; 
+  text-align: center;
+  text-transform: uppercase;
+  color: #171717;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 0 0 0;
+  padding: 0 0 0;
+}
+.sidebar li {
+  margin: 0 15px;
+  padding: 0 0 .25em 0;
+  line-height: 1.5em;
+	text-indent: 0;
+}
+
+.sidebar .widget {
+  background: #FFF;
+  margin-bottom: 30px;
+	padding: 0 10px;
+
+}
+
+.sidebar .widget-content {
+  margin: 0 auto;
+  padding: 0;
+  
+}
+
+.main .widget {
+  border-bottom: 1px dotted #ccc;
+  margin: 0 0 1.5em;
+  padding: 0 0 1.5em;
+}
+
+.main .Blog {
+  border-bottom-width: 0;
+}
+
+/* Label Cloud Styling
+----------------------------------------------- */
+.label-size-1,.label-size-2,.label-size-3,.label-size-4,.label-size-5 {
+font-size:100%;
+filter:alpha(100);
+opacity:10
+}
+.cloud-label-widget-content{
+text-align:left
+}
+.label-size {
+ckground:;
+display:block;
+float:left;
+margin:0 3px 10px 0;
+color:#ffffff;
+font-size:12px;
+text-transform:uppercase;
+}
+.label-size a,.label-size span{
+border: 1px solid #ddd;
+display:inline-block;
+color:#848484;
+padding:5px 13px;
+font-weight:400;
+}
+.label-size a:hover {
+background-color: #ff4e50;
+color: #fff;
+}
+.label-count {
+white-space:nowrap;
+padding-right:3px;
+margin-left:-3px;
+background:#f8f8f8;
+color:#848484 !important;
+border-left: 0 none;
+}
+.label-size {
+line-height:1.2;
+}
+
+/* Popular Posts Styling
+----------------------------------------------- */
+
+
+/* Profile
+----------------------------------------------- */
+.profile-img {
+  float: left;
+  margin: 0 5px 5px 0;
+  padding: 4px;
+  border: 1px solid #ccc;
+}
+
+.profile-data {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: 12px;
+  color: #ff4e50;
+  font-weight: 700;
+  line-height: 1.6em;
+}
+
+.profile-datablock {
+  font-size: 11px;
+  margin: .5em 0 .5em;
+  text-align: justify;
+}
+
+.profile-textblock {
+  margin: 0.5em 0;
+  line-height: 1.6em;
+  text-align:initial;
+}
+
+.profile-link {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+
+/* Footer
+----------------------------------------------- */
+
+#footer-wrapper {
+background-color: #252525;
+color: #ddd;
+padding: 30px 2% 48px;
+position: relative;
+clear:both;
+}
+
+#footer-column-container {
+color: #ccc;
+max-width:100%;
+padding:0 2%;
+margin:0 auto;
+}
+
+.footer-column {
+margin:0 auto; 
+padding:5px;
+line-height: 1.625em;
+}
+
+#footer-column-left {
+margin-right: 2%;
+float:left;
+width: 31%;
+}
+#footer-column-center {
+margin: 0 auto;
+float:left;
+width: 33%;
+}
+#footer-column-right {
+margin-left: 2%;
+float:right;
+width: 31%;
+}
+.footer-column h2 {
+font-size: 1em;
+text-transform: uppercase;
+margin:0 auto 20px;
+padding-bottom: 10px;
+color: #fff;
+text-align: center;
+border-bottom: 3px solid #444;
+}
+
+.footer-column a {
+color: #fff;
+font-size: 13px;
+}
+
+.footer-column a:hover {
+color: #ff4e50;
+}
+
+.footer-column ul {
+list-style:none;
+margin:0 0 0;
+padding:0 0 0;
+}
+.footer-column li {
+margin:0 auto;
+padding:0 5px .35em 0;
+border-bottom:1px solid #444;
+}
+
+.footer-column .widget-content {
+margin:0 auto;
+padding: 0;
+}
+
+
+#credits {
+background-color: #303030;
+color: #ccc;
+font-size: 12px;
+padding: 10px 2%;
+}
+
+.footleft {
+float: left;
+width: 49%;
+line-height: 18px;
+margin-bottom: 8px;
+margin-top: 8px;
+}
+
+.footright {
+float: right;
+  line-height: 18px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+text-align: right;
+width: 49%;
+}
+
+/* Breadcrumbs
+--------------------------------------------------*/
+.breadcrumbs{
+  width:100%;
+  font-size: 12px;
+text-transform: uppercase;
+font-weight: 100;
+  color: #222;
+padding: 0;
+}
+
+.breadcrumbs a {
+	color: #222;
+	padding: 0 5px;
+}
+
+.breadcrumbs a:hover {
+    color: #ff4e50;
+}
+
+.baseTitle{border-bottom:3px solid #e6e6e6;text-align:center;color: #444;font-size: 1.1em; padding:0.5rem;margin-bottom:30px;text-transform:uppercase;}
+
+
+.sharebox-wrap {
+  float: left;
+  margin: 1em 0;
+  padding: 0 10%;
+  position: relative;
+  width: 80%;
+}
+
+.share_box {
+  float: left;
+  margin: 0;
+  padding: 6px 0 0;
+  width: 100%;
+}
+
+.sharebox-wrap {margin: 1em 0; padding: 0% 10%; position: relative; float: left; width: 80%;}
+.share_box {margin: 0px; padding: 6px 0px 0px; float: left; width: 100%;}
+.page-single .share_box {}
+.share_box .share_btn {margin: 0px 0px 0px; width: auto; padding: 0px; float: left;}
+.share_box .twitter_share {width: 85px !important; overflow: hidden;}
+.share_box .fb_share {margin-right: 10px !important;}
+.share_box .gplus_share {width: 70px !important; overflow:hidden !important;}
+
+
+/* 2.4.1 Slider */
+
+#featured-slider {
+    margin-bottom: 30px;
+    background: #f2f2f2;
+    position:relative;
+	overflow: hidden;
+
+	
+}
+
+#slidernbt{ width: 100%;float:left;margin: 0 auto;  padding:0; position:relative;overflow:hidden;}
+#slidernbt .top-barnbt{ margin: 0px; padding:0; position:relative;}
+#slidernbt .top-barnbt h2{ display:inline-block; font:400 200% 'Roboto', sans-serif;line-height:1.1em;margin-bottom:0px;color:#ffffff;text-shadow: 0px 1px 1px #000;}
+#slidernbt .top-barnbt p{ display:inline-block; font:400 100% 'Roboto', sans-serif;line-height:1.3em;margin-bottom:1.250em;color:#ffffff;text-shadow: 0px 1px 1px #000;}
+#slidernbt .top-barnbt h2, #slidernbt .top-barnbt p{ width:80%;}
+
+a.read-morenbt, a.blog-more{ display:inline-block; font:400 85% 'Roboto', sans-serif; padding:10px 15px; margin:0 auto; color:#ffffff; background: #ff4e50;}
+a.read-morenbt:hover, a.blog-more:hover{ background-color:#171717;}
+
+*
+ * jQuery Nivo Slider v3.2
+ * https://nivo.dev7studios.com
+ *
+ * Copyright 2012, Dev7studios
+ * Free to use and abuse under the MIT license.
+ * https://www.opensource.org/licenses/mit-license.php
+ */
+ 
+/* The Nivo Slider styles */
+
+.slider-mainnbt
+{
+	position:relative;
+
+}
+.nivoSlider {
+	position:relative;
+	width:100%;
+	height:auto;
+	height: 400px;
+	overflow: hidden;
+
+
+
+
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	max-width: none;
+
+}
+.nivo-main-image {
+	display: block !important;
+	position: relative !important; 
+	width: 100% !important;
+
+}
+
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+	background:white; 
+	filter:alpha(opacity=0); 
+	opacity:0;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+	top:0;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+	overflow:hidden;
+}
+.nivo-box img { display:block; }
+
+/* Caption styles */
+.nivo-caption {
+background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%) repeat scroll 0 0;
+bottom: 0;
+content: "";
+display: block;
+height: 30%;
+position: absolute;
+width: 100%;
+z-index: 1;
+	left:0;
+	bottom:0;
+	color:#fff;
+	z-index:8;
+	text-align:center;
+	overflow: hidden;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	height:auto;
+}
+.nivo-caption p {
+	padding:20px;
+	margin:0 auto; 
+}
+
+.nivo-html-caption {
+    display:none;
+}
+
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+	text-align:center;
+	padding: 15px 0;
+	position: absolute;
+    text-align: center;
+    width: 100%;
+	bottom:0px;
+	z-index:9;
+}
+
+.nivo-controlNav a {
+	cursor:pointer;
+	box-shadow:1.5px 1.5px 0px #000 inset;
+	-moz-box-shadow:1.5px 1.5px 0px #000 inset;
+	-webkit-box-shadow:1.5px 1.5px 0px #000 inset;
+	-o-box-shadow:1.5px 1.5px 0px #000 inset;
+}
+.nivo-controlNav a {
+    border: 0 none;
+    display: inline-block;
+    height: 15px;
+    margin: 0 4px;
+    text-indent: -9999px;
+    width: 15px;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	-o-border-radius:15px;
+}
+.nivo-controlNav a.active {
+	font-weight:bold;
+    background-position: 0 -21px;
+}
+
+
+
+
+.slider-mainnbt:hover .nivo-directionNav a {
+    opacity: 0.8;
+}
+
+
+
+*
+*
+
+/* Layout Responsive
+----------------------------------------------- */
+
+
+@media screen and (max-width: 640px) {
+.credits, .footleft, .footright {width: 100%;text-align:center;}
+    #footer-wrapper {width:100%;float;none;}
+	#footer-column-left, #footer-column-center, #footer-column-right {float:center; width:100%; margin:0 auto;, padding:10px;}
+    .showpageArea a {text-decoration:none;font-size: 0.75em;}
+
+
+
+
+#adsense {
+  float: none;
+  width: auto;
+  margin: 0 auto;
+  padding: 15px;
+
+}
+
+.nivo-caption {
+position: absolute;
+color:#666;
+z-index:8;
+font-size: 30%;
+
+
+}
+
+.nivoSlider {
+	position:relative;
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+
+}
+
+#top-barnbt {
+
+	font-size: 10px;
+}
+
+@media screen and (max-width: 480px) {
+
+#main-wrapper,
+.index-post,
+.index-contents {
+    float: none;
+    width: 100%;
+	text-overflow:clip;
+	white-space:normal;
+}
+
+
+.nivoSlider {
+	position:relative;
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+
+
+
+#header {margin: 0 auto 20px;}
+
+#sidebar-wrapper,
+.sidebar {float:none;width:100%;}
+
+
+}
+
+
+#top-barnbt {
+	font-size: 10px;
+
+}
+@media screen and (max-width: 320px) {
+
+
+
+}
+
+/* Recent posts by labels
+--------------------------------- */ 
+img.label_thumb{
+float:left;
+margin-right:10px !important;
+height:65px; /* Thumbnail height */
+width:65px; /* Thumbnail width */
+border: 1px solid #fff;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+box-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+}
+
+#label_with_thumbs {
+float: left;
+width: 100%;
+min-height: 70px;
+margin: 0px 10px 2px 0px;
+padding: 0;
+}
+ul#label_with_thumbs li {
+padding:8px 0;
+min-height:65px;
+margin-bottom:0px;
+border-bottom: 1px dotted #999999;
+}
+
+#label_with_thumbs li{
+list-style: none ;
+padding-left:0px !important;
+}
+
+#label_with_thumbs a { text-transform: uppercase;}
+#label_with_thumbs strong {padding-left:0px; }
+
+#ContactForm1{display: none !important;}
+
+]]></b:skin>
+
+
+<b:template-skin>
+
+    <![CDATA[
+body#layout {width:980px;padding: 45px 20px 10px;background-color:#333;}
+body#layout #header-wrapper {width:100%;}
+body#layout #header {width:29%; float:left}
+body#layout #adsense {width:50%; float:right;}
+body#layout #main-wrapper {width:60%;float:left;}
+body#layout #sidebar-wrapper {float:right;width:31%}
+body#layout #featured-wrapper {float:left;width:60%}
+body#layout #footer-wrapper {width: 2000px}
+body#layout #footer-column-left {margin: 0px;float:left;width: 33%;}
+body#layout #footer-column-center {margin: 0px 4.5px;float:left;width: 33%;}
+body#layout:after {content: "Copyrights @ www.gmbwest.com";margin:0px;}
+body#layout #footer-column-right {float:right;width: 33%;}
+body#layout #footer-top {width: 960px}
+body#layout ul,li,a {list-style:none;}
+body#layout:after {
+    font-size: 14px;
+    padding: 14.5px 0;
+    float: auto;
+    background: #333;
+    color: #fff; 
+    width: 100%;
+    z-index: 100;
+    position: relative;
+    border-top: 1px solid #d2d2d2;
+}
+
+]]>
+    </b:template-skin>
+  
+
+
+<b:if cond='data:blog.pageType == &quot;item&quot;'><style type='text/css'>
+
+.comments {
+	background: #FFF;
+	margin: 0 0 10px;
+	padding: 10px;
+	border: 1px solid #DDD; 
+
+}
+
+.sharebar {position: relative; background: none;  z-index: 2;  width: 100%;  padding: 10px;  display: inline-block;    font-family: sans-serif;    margin-top: 25px;    border-top: 1px dotted rgba(0, 0, 0, 0.05);    border-bottom: 1px dotted rgba(0, 0, 0, 0.05);}
+.sharebar .Share_buttons { display: block;}
+.sharebar .Share_buttons .wrap {   text-align: center;    margin: 0 auto;    display: inline-block;   min-width: 41px;}
+.sharebar .Share_buttons .wrap1 {  display: inline-block;    width: 31px;    float: left;}
+.sharebar .Share_buttons ul {   margin: 0;   padding: 0;}
+.sharebar .Share_buttons ul li a, .sharebar .Share_buttons ul li a:hover {    color: #FFF !important;    cursor: pointer;    line-height: 25px;    height: 100%;   display: block;   text-decoration: none;}
+.sharebar .Share_buttons ul li {    list-style: none;  list-style-type: none;    padding: 0;   margin: 1px;    float: left;    width: 16%;  max-width: 100px;    display: inline-block;    font-size: 13px;    overflow: hidden;    text-align: left;   height: 25px;   line-height: 25px;  color: #fff;   border: 1px solid rgba(0,0,0,0.04);    -webkit-transition: all 0.4s ease-in-out;   -moz-transition: all 0.4s ease-in-out;   -ms-transition: all 0.4s ease-in-out;   -o-transition: all 0.4s ease-in-out;   transition: all 0.4s ease-in-out;}
+.sharebar .Share_buttons ul li .fa {   color: #fff;    font-size: 17px;   font-weight: normal;   font-family: FontAwesome;    display: inline-block;    text-align: center;    padding: 0;    height: 25px;    line-height: inherit;    width: 30px;    background-color: rgba(0,0,0,0.1);    border-right: 1px solid rgba(0,0,0,0.05);}
+/*--Facebook---*/
+.sharebar .Share_buttons .btn_fb {    background: #3a579a;}
+.sharebar .Share_buttons .btn_fb:hover {    background: #314a83;}
+/*--Twitter---*/
+.sharebar .Share_buttons .btn_twtr {   background: #00abf0;}
+.sharebar .Share_buttons .btn_twtr:hover {    background: #0092cc;}
+/*--Google Plus---*/
+.sharebar .Share_buttons .btn_gplus {    background: #df4a32;}
+.sharebar .Share_buttons .btn_gplus:hover {    background: #be3f2b;}
+/*--Whatsapp---*/
+.sharebar .Share_buttons .btn_whatsapp {   background: #25d366;}
+.sharebar .Share_buttons .btn_whatsapp:hover {    background: #30c768;}
+/*--Pinterest---*/
+.sharebar .Share_buttons .btn_pntrst {    background: #cd1c1f;}
+.sharebar .Share_buttons .btn_pntrst:hover {  background: #ae181a;}
+/*--linkedin---*/
+.sharebar .Share_buttons .btn_linkdin {    background: #0077b5;}
+.sharebar .Share_buttons .btn_linkdin:hover {  background: #005480;}
+/*---Total Share----*/
+.sharebar .Share_buttons .share.h6 {    font-size: 10px;    font-weight: bold;    text-shadow: none!important;    text-decoration: none;    text-align: center;    color: #000000;    border-top: 3px solid #FFF600 !important;    border-bottom: 0;    padding: 0px !important;    padding-top: 5px!important;    margin: 0 !important;    line-height: 8px;    border-radius: 75% 0;}
+.sharebar .Share_buttons .share {    border: none;    margin: 0px 5px 0px 1px;    overflow: visible !important;    width: 95px !important;}
+.sharebar .Share_buttons .share .count.h4 {    font-size: 18px;    font-weight: bold;   text-shadow: none;    text-decoration: none;    font-family: sans-serif;    text-align: center;    color: #FF0000;    line-height: 15px;    margin-top: 0px;    margin: -4px 0px 2px 0;    min-height: 15px;    padding: 0px;    border: none;}
+.sharebar .Share_buttons .btn_fb .share-btn, .sharebar .Share_buttons .btn_twtr .share-btn, .sharebar .Share_buttons .btn_gplus .share-btn, .sharebar .Share_buttons .btn_pntrst .share-btn, .sharebar .Share_buttons .btn_linkdin .share-btn {   position: relative;    color: #C3C3C3;    display: inline-block;    text-align: center;    font-weight: bold;    font-size: 11px;    float: right;    min-width: 12px;    font-family: sans-serif;    padding: 0px 5px;   background-color: rgba(0,0,0,0.28);    border-radius: 0px 0px 0px 15px;}
+ @media only screen and (max-width: 979px) {
+ .sharebar .Share_buttons .btn_linkdin { width: 34px;}
+.sharebar .Share_buttons .btn_fb .share-btn, .sharebar .Share_buttons .btn_twtr .share-btn, .sharebar .Share_buttons .btn_linkdin .share-btn, .sharebar .Share_buttons .btn_gplus .share-btn, .sharebar .Share_buttons .btn_pntrst .share-btn
+ { display: none !important;}}
+ @media only screen and (max-width:768px) {
+.sharebar .Share_buttons ul li a, .sharebar .Share_buttons ul li a:hover {   color: #FFF !important;    cursor: pointer;    line-height: 25px;    font-size: 11px;    height: 100%;    display: block;    text-decoration: none;}
+.sharebar .Share_buttons .wrap {    min-width: 34px;}
+.sharebar .Share_buttons .btn_linkdin, .sharebar .Share_buttons .btn_pntrst {   width: 30px;}
+.sharebar .Share_buttons ul li {  margin: 1px 3px;}
+ @media only screen and (max-width:479px) { .sharebar .Share_buttons .share {    border: none;   margin: 0px 5px 0px 1px;    overflow: visible!important;    width: 80px!important;}
+.sharebar .Share_buttons ul li {    width: 25px !important;    margin: 2px;    border-radius: 50px;    border: 2px solid rgba(0, 0, 0, 0.14);}
+.sharebar .Share_buttons .wrap {   display: none !important;}
+.sharebar .Share_buttons ul li .fa {    width: 25px !important;}}
+</style></b:if>
+
+
+
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+
+</b:if>
+
+<script type='text/javascript'>//<![CDATA[
+
+jQuery(document).ready(function($) {
+	$("#search-button").click(function(){
+	  $("#search-bar").slideToggle();
+  	});
+ 	});
+//]]></script>
+
+
+
+
+
+
+
+
+<!-- SLIDER JS -->
+
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'/>
+
+
+
+
+<script type='text/javascript'>
+//<![CDATA[
+
+/*
+ * ** ** **
+ * ** ** **
+ *
+ * ** ** **
+ * ** ** **
+ * ** ** **
+ */
+
+(function($) {
+    var NivoSlider = function(element, options){
+        // Defaults are below
+        var settings = $.extend({}, $.fn.nivoSlider.defaults, options);
+
+        // Useful variables. Play carefully.
+        var vars = {
+            currentSlide: 0,
+            currentImage: '',
+            totalSlides: 0,
+            running: false,
+            paused: false,
+            stop: false,
+            controlNavEl: false
+        };
+
+        // Get this slider
+        var slider = $(element);
+        slider.data('nivo:vars', vars).addClass('nivoSlider');
+
+        // Find our slider children
+        var kids = slider.children();
+        kids.each(function() {
+            var child = $(this);
+            var link = '';
+            if(!child.is('img')){
+                if(child.is('a')){
+                    child.addClass('nivo-imageLink');
+                    link = child;
+                }
+                child = child.find('img:first');
+            }
+            // Get img width & height
+            var childWidth = (childWidth === 0) ? child.attr('width') : child.width(),
+                childHeight = (childHeight === 0) ? child.attr('height') : child.height();
+
+            if(link !== ''){
+                link.css('display','none');
+            }
+            child.css('display','none');
+            vars.totalSlides++;
+        });
+         
+        // If randomStart
+        if(settings.randomStart){
+            settings.startSlide = Math.floor(Math.random() * vars.totalSlides);
+        }
+        
+        // Set startSlide
+        if(settings.startSlide > 0){
+            if(settings.startSlide >= vars.totalSlides) { settings.startSlide = vars.totalSlides - 1; }
+            vars.currentSlide = settings.startSlide;
+        }
+        
+        // Get initial image
+        if($(kids[vars.currentSlide]).is('img')){
+            vars.currentImage = $(kids[vars.currentSlide]);
+        } else {
+            vars.currentImage = $(kids[vars.currentSlide]).find('img:first');
+        }
+        
+        // Show initial link
+        if($(kids[vars.currentSlide]).is('a')){
+            $(kids[vars.currentSlide]).css('display','block');
+        }
+        
+        // Set first background
+        var sliderImg = $('<img/>').addClass('nivo-main-image');
+        sliderImg.attr('src', vars.currentImage.attr('src')).show();
+        slider.append(sliderImg);
+
+        // Detect Window Resize
+        $(window).resize(function() {
+            slider.children('img').width(slider.width());
+            sliderImg.attr('src', vars.currentImage.attr('src'));
+            sliderImg.stop().height('auto');
+            $('.nivo-slice').remove();
+            $('.nivo-box').remove();
+        });
+
+        //Create caption
+        slider.append($('<div class="nivo-caption"></div>'));
+        
+        // Process caption function
+        var processCaption = function(settings){
+            var nivoCaption = $('.nivo-caption', slider);
+            if(vars.currentImage.attr('title') != '' && vars.currentImage.attr('title') != undefined){
+                var title = vars.currentImage.attr('title');
+                if(title.substr(0,1) == '#') title = $(title).html();   
+
+                if(nivoCaption.css('display') == 'block'){
+                    setTimeout(function(){
+                        nivoCaption.html(title);
+                    }, settings.animSpeed);
+                } else {
+                    nivoCaption.html(title);
+                    nivoCaption.stop().fadeIn(settings.animSpeed);
+                }
+            } else {
+                nivoCaption.stop().fadeOut(settings.animSpeed);
+            }
+        }
+        
+        //Process initial  caption
+        processCaption(settings);
+        
+        // In the words of Super Mario "let's a go!"
+        var timer = 0;
+        if(!settings.manualAdvance && kids.length > 1){
+            timer = setInterval(function(){ nivoRun(slider, kids, settings, false); }, settings.pauseTime);
+        }
+        
+        // Add Direction nav
+        if(settings.directionNav){
+            slider.append('<div class="nivo-directionNav"><a class="nivo-prevNav">'+ settings.prevText +'</a><a class="nivo-nextNav">'+ settings.nextText +'</a></div>');
+            
+            $(slider).on('click', 'a.nivo-prevNav', function(){
+                if(vars.running) { return false; }
+                clearInterval(timer);
+                timer = '';
+                vars.currentSlide -= 2;
+                nivoRun(slider, kids, settings, 'prev');
+            });
+            
+            $(slider).on('click', 'a.nivo-nextNav', function(){
+                if(vars.running) { return false; }
+                clearInterval(timer);
+                timer = '';
+                nivoRun(slider, kids, settings, 'next');
+            });
+        }
+        
+        // Add Control nav
+        if(settings.controlNav){
+            vars.controlNavEl = $('<div class="nivo-controlNav"></div>');
+            slider.after(vars.controlNavEl);
+            for(var i = 0; i < kids.length; i++){
+                if(settings.controlNavThumbs){
+                    vars.controlNavEl.addClass('nivo-thumbs-enabled');
+                    var child = kids.eq(i);
+                    if(!child.is('img')){
+                        child = child.find('img:first');
+                    }
+                    if(child.attr('data-thumb')) vars.controlNavEl.append('<a class="nivo-control" rel="'+ i +'"><img src="'+ child.attr('data-thumb') +'" alt="" /></a>');
+                } else {
+                    vars.controlNavEl.append('<a class="nivo-control" rel="'+ i +'">'+ (i + 1) +'</a>');
+                }
+            }
+
+            //Set initial active link
+            $('a:eq('+ vars.currentSlide +')', vars.controlNavEl).addClass('active');
+            
+            $('a', vars.controlNavEl).bind('click', function(){
+                if(vars.running) return false;
+                if($(this).hasClass('active')) return false;
+                clearInterval(timer);
+                timer = '';
+                sliderImg.attr('src', vars.currentImage.attr('src'));
+                vars.currentSlide = $(this).attr('rel') - 1;
+                nivoRun(slider, kids, settings, 'control');
+            });
+        }
+        
+        //For pauseOnHover setting
+        if(settings.pauseOnHover){
+            slider.hover(function(){
+                vars.paused = true;
+                clearInterval(timer);
+                timer = '';
+            }, function(){
+                vars.paused = false;
+                // Restart the timer
+                if(timer === '' && !settings.manualAdvance){
+                    timer = setInterval(function(){ nivoRun(slider, kids, settings, false); }, settings.pauseTime);
+                }
+            });
+        }
+        
+        // Event when Animation finishes
+        slider.bind('nivo:animFinished', function(){
+            sliderImg.attr('src', vars.currentImage.attr('src'));
+            vars.running = false; 
+            // Hide child links
+            $(kids).each(function(){
+                if($(this).is('a')){
+                   $(this).css('display','none');
+                }
+            });
+            // Show current link
+            if($(kids[vars.currentSlide]).is('a')){
+                $(kids[vars.currentSlide]).css('display','block');
+            }
+            // Restart the timer
+            if(timer === '' && !vars.paused && !settings.manualAdvance){
+                timer = setInterval(function(){ nivoRun(slider, kids, settings, false); }, settings.pauseTime);
+            }
+            // Trigger the afterChange callback
+            settings.afterChange.call(this);
+        }); 
+        
+        // Add slices for slice animations
+        var createSlices = function(slider, settings, vars) {
+        	if($(vars.currentImage).parent().is('a')) $(vars.currentImage).parent().css('display','block');
+            $('img[src="'+ vars.currentImage.attr('src') +'"]', slider).not('.nivo-main-image,.nivo-control img').width(slider.width()).css('visibility', 'hidden').show();
+            var sliceHeight = ($('img[src="'+ vars.currentImage.attr('src') +'"]', slider).not('.nivo-main-image,.nivo-control img').parent().is('a')) ? $('img[src="'+ vars.currentImage.attr('src') +'"]', slider).not('.nivo-main-image,.nivo-control img').parent().height() : $('img[src="'+ vars.currentImage.attr('src') +'"]', slider).not('.nivo-main-image,.nivo-control img').height();
+
+            for(var i = 0; i < settings.slices; i++){
+                var sliceWidth = Math.round(slider.width()/settings.slices);
+                
+                if(i === settings.slices-1){
+                    slider.append(
+                        $('<div class="nivo-slice" name="'+i+'"><img src="'+ vars.currentImage.attr('src') +'" style="position:absolute; width:'+ slider.width() +'px; height:auto; display:block !important; top:0; left:-'+ ((sliceWidth + (i * sliceWidth)) - sliceWidth) +'px;" /></div>').css({ 
+                            left:(sliceWidth*i)+'px', 
+                            width:(slider.width()-(sliceWidth*i))+'px',
+                            height:sliceHeight+'px', 
+                            opacity:'0',
+                            overflow:'hidden'
+                        })
+                    );
+                } else {
+                    slider.append(
+                        $('<div class="nivo-slice" name="'+i+'"><img src="'+ vars.currentImage.attr('src') +'" style="position:absolute; width:'+ slider.width() +'px; height:auto; display:block !important; top:0; left:-'+ ((sliceWidth + (i * sliceWidth)) - sliceWidth) +'px;" /></div>').css({ 
+                            left:(sliceWidth*i)+'px', 
+                            width:sliceWidth+'px',
+                            height:sliceHeight+'px',
+                            opacity:'0',
+                            overflow:'hidden'
+                        })
+                    );
+                }
+            }
+            
+            $('.nivo-slice', slider).height(sliceHeight);
+            sliderImg.stop().animate({
+                height: $(vars.currentImage).height()
+            }, settings.animSpeed);
+        };
+        
+        // Add boxes for box animations
+        var createBoxes = function(slider, settings, vars){
+        	if($(vars.currentImage).parent().is('a')) $(vars.currentImage).parent().css('display','block');
+            $('img[src="'+ vars.currentImage.attr('src') +'"]', slider).not('.nivo-main-image,.nivo-control img').width(slider.width()).css('visibility', 'hidden').show();
+            var boxWidth = Math.round(slider.width()/settings.boxCols),
+                boxHeight = Math.round($('img[src="'+ vars.currentImage.attr('src') +'"]', slider).not('.nivo-main-image,.nivo-control img').height() / settings.boxRows);
+            
+                        
+            for(var rows = 0; rows < settings.boxRows; rows++){
+                for(var cols = 0; cols < settings.boxCols; cols++){
+                    if(cols === settings.boxCols-1){
+                        slider.append(
+                            $('<div class="nivo-box" name="'+ cols +'" rel="'+ rows +'"><img src="'+ vars.currentImage.attr('src') +'" style="position:absolute; width:'+ slider.width() +'px; height:auto; display:block; top:-'+ (boxHeight*rows) +'px; left:-'+ (boxWidth*cols) +'px;" /></div>').css({ 
+                                opacity:0,
+                                left:(boxWidth*cols)+'px', 
+                                top:(boxHeight*rows)+'px',
+                                width:(slider.width()-(boxWidth*cols))+'px'
+                                
+                            })
+                        );
+                        $('.nivo-box[name="'+ cols +'"]', slider).height($('.nivo-box[name="'+ cols +'"] img', slider).height()+'px');
+                    } else {
+                        slider.append(
+                            $('<div class="nivo-box" name="'+ cols +'" rel="'+ rows +'"><img src="'+ vars.currentImage.attr('src') +'" style="position:absolute; width:'+ slider.width() +'px; height:auto; display:block; top:-'+ (boxHeight*rows) +'px; left:-'+ (boxWidth*cols) +'px;" /></div>').css({ 
+                                opacity:0,
+                                left:(boxWidth*cols)+'px', 
+                                top:(boxHeight*rows)+'px',
+                                width:boxWidth+'px'
+                            })
+                        );
+                        $('.nivo-box[name="'+ cols +'"]', slider).height($('.nivo-box[name="'+ cols +'"] img', slider).height()+'px');
+                    }
+                }
+            }
+            
+            sliderImg.stop().animate({
+                height: $(vars.currentImage).height()
+            }, settings.animSpeed);
+        };
+
+        // Private run method
+        var nivoRun = function(slider, kids, settings, nudge){          
+            // Get our vars
+            var vars = slider.data('nivo:vars');
+            
+            // Trigger the lastSlide callback
+            if(vars && (vars.currentSlide === vars.totalSlides - 1)){ 
+                settings.lastSlide.call(this);
+            }
+            
+            // Stop
+            if((!vars || vars.stop) && !nudge) { return false; }
+            
+            // Trigger the beforeChange callback
+            settings.beforeChange.call(this);
+
+            // Set current background before change
+            if(!nudge){
+                sliderImg.attr('src', vars.currentImage.attr('src'));
+            } else {
+                if(nudge === 'prev'){
+                    sliderImg.attr('src', vars.currentImage.attr('src'));
+                }
+                if(nudge === 'next'){
+                    sliderImg.attr('src', vars.currentImage.attr('src'));
+                }
+            }
+            
+            vars.currentSlide++;
+            // Trigger the slideshowEnd callback
+            if(vars.currentSlide === vars.totalSlides){ 
+                vars.currentSlide = 0;
+                settings.slideshowEnd.call(this);
+            }
+            if(vars.currentSlide < 0) { vars.currentSlide = (vars.totalSlides - 1); }
+            // Set vars.currentImage
+            if($(kids[vars.currentSlide]).is('img')){
+                vars.currentImage = $(kids[vars.currentSlide]);
+            } else {
+                vars.currentImage = $(kids[vars.currentSlide]).find('img:first');
+            }
+            
+            // Set active links
+            if(settings.controlNav){
+                $('a', vars.controlNavEl).removeClass('active');
+                $('a:eq('+ vars.currentSlide +')', vars.controlNavEl).addClass('active');
+            }
+            
+            // Process caption
+            processCaption(settings);            
+            
+            // Remove any slices from last transition
+            $('.nivo-slice', slider).remove();
+            
+            // Remove any boxes from last transition
+            $('.nivo-box', slider).remove();
+            
+            var currentEffect = settings.effect,
+                anims = '';
+                
+            // Generate random effect
+            if(settings.effect === 'random'){
+                anims = new Array('sliceDownRight','sliceDownLeft','sliceUpRight','sliceUpLeft','sliceUpDown','sliceUpDownLeft','fold','fade',
+                'boxRandom','boxRain','boxRainReverse','boxRainGrow','boxRainGrowReverse');
+                currentEffect = anims[Math.floor(Math.random()*(anims.length + 1))];
+                if(currentEffect === undefined) { currentEffect = 'fade'; }
+            }
+            
+            // Run random effect from specified set (eg: effect:'fold,fade')
+            if(settings.effect.indexOf(',') !== -1){
+                anims = settings.effect.split(',');
+                currentEffect = anims[Math.floor(Math.random()*(anims.length))];
+                if(currentEffect === undefined) { currentEffect = 'fade'; }
+            }
+            
+            // Custom transition as defined by "data-transition" attribute
+            if(vars.currentImage.attr('data-transition')){
+                currentEffect = vars.currentImage.attr('data-transition');
+            }
+        
+            // Run effects
+            vars.running = true;
+            var timeBuff = 0,
+                i = 0,
+                slices = '',
+                firstSlice = '',
+                totalBoxes = '',
+                boxes = '';
+            
+            if(currentEffect === 'sliceDown' || currentEffect === 'sliceDownRight' || currentEffect === 'sliceDownLeft'){
+                createSlices(slider, settings, vars);
+                timeBuff = 0;
+                i = 0;
+                slices = $('.nivo-slice', slider);
+                if(currentEffect === 'sliceDownLeft') { slices = $('.nivo-slice', slider)._reverse(); }
+                
+                slices.each(function(){
+                    var slice = $(this);
+                    slice.css({ 'top': '0px' });
+                    if(i === settings.slices-1){
+                        setTimeout(function(){
+                            slice.animate({opacity:'1.0' }, settings.animSpeed, '', function(){ slider.trigger('nivo:animFinished'); });
+                        }, (100 + timeBuff));
+                    } else {
+                        setTimeout(function(){
+                            slice.animate({opacity:'1.0' }, settings.animSpeed);
+                        }, (100 + timeBuff));
+                    }
+                    timeBuff += 50;
+                    i++;
+                });
+            } else if(currentEffect === 'sliceUp' || currentEffect === 'sliceUpRight' || currentEffect === 'sliceUpLeft'){
+                createSlices(slider, settings, vars);
+                timeBuff = 0;
+                i = 0;
+                slices = $('.nivo-slice', slider);
+                if(currentEffect === 'sliceUpLeft') { slices = $('.nivo-slice', slider)._reverse(); }
+                
+                slices.each(function(){
+                    var slice = $(this);
+                    slice.css({ 'bottom': '0px' });
+                    if(i === settings.slices-1){
+                        setTimeout(function(){
+                            slice.animate({opacity:'1.0' }, settings.animSpeed, '', function(){ slider.trigger('nivo:animFinished'); });
+                        }, (100 + timeBuff));
+                    } else {
+                        setTimeout(function(){
+                            slice.animate({opacity:'1.0' }, settings.animSpeed);
+                        }, (100 + timeBuff));
+                    }
+                    timeBuff += 50;
+                    i++;
+                });
+            } else if(currentEffect === 'sliceUpDown' || currentEffect === 'sliceUpDownRight' || currentEffect === 'sliceUpDownLeft'){
+                createSlices(slider, settings, vars);
+                timeBuff = 0;
+                i = 0;
+                var v = 0;
+                slices = $('.nivo-slice', slider);
+                if(currentEffect === 'sliceUpDownLeft') { slices = $('.nivo-slice', slider)._reverse(); }
+                
+                slices.each(function(){
+                    var slice = $(this);
+                    if(i === 0){
+                        slice.css('top','0px');
+                        i++;
+                    } else {
+                        slice.css('bottom','0px');
+                        i = 0;
+                    }
+                    
+                    if(v === settings.slices-1){
+                        setTimeout(function(){
+                            slice.animate({opacity:'1.0' }, settings.animSpeed, '', function(){ slider.trigger('nivo:animFinished'); });
+                        }, (100 + timeBuff));
+                    } else {
+                        setTimeout(function(){
+                            slice.animate({opacity:'1.0' }, settings.animSpeed);
+                        }, (100 + timeBuff));
+                    }
+                    timeBuff += 50;
+                    v++;
+                });
+            } else if(currentEffect === 'fold'){
+                createSlices(slider, settings, vars);
+                timeBuff = 0;
+                i = 0;
+                
+                $('.nivo-slice', slider).each(function(){
+                    var slice = $(this);
+                    var origWidth = slice.width();
+                    slice.css({ top:'0px', width:'0px' });
+                    if(i === settings.slices-1){
+                        setTimeout(function(){
+                            slice.animate({ width:origWidth, opacity:'1.0' }, settings.animSpeed, '', function(){ slider.trigger('nivo:animFinished'); });
+                        }, (100 + timeBuff));
+                    } else {
+                        setTimeout(function(){
+                            slice.animate({ width:origWidth, opacity:'1.0' }, settings.animSpeed);
+                        }, (100 + timeBuff));
+                    }
+                    timeBuff += 50;
+                    i++;
+                });
+            } else if(currentEffect === 'fade'){
+                createSlices(slider, settings, vars);
+                
+                firstSlice = $('.nivo-slice:first', slider);
+                firstSlice.css({
+                    'width': slider.width() + 'px'
+                });
+    
+                firstSlice.animate({ opacity:'1.0' }, (settings.animSpeed*2), '', function(){ slider.trigger('nivo:animFinished'); });
+            } else if(currentEffect === 'slideInRight'){
+                createSlices(slider, settings, vars);
+                
+                firstSlice = $('.nivo-slice:first', slider);
+                firstSlice.css({
+                    'width': '0px',
+                    'opacity': '1'
+                });
+
+                firstSlice.animate({ width: slider.width() + 'px' }, (settings.animSpeed*2), '', function(){ slider.trigger('nivo:animFinished'); });
+            } else if(currentEffect === 'slideInLeft'){
+                createSlices(slider, settings, vars);
+                
+                firstSlice = $('.nivo-slice:first', slider);
+                firstSlice.css({
+                    'width': '0px',
+                    'opacity': '1',
+                    'left': '',
+                    'right': '0px'
+                });
+
+                firstSlice.animate({ width: slider.width() + 'px' }, (settings.animSpeed*2), '', function(){ 
+                    // Reset positioning
+                    firstSlice.css({
+                        'left': '0px',
+                        'right': ''
+                    });
+                    slider.trigger('nivo:animFinished'); 
+                });
+            } else if(currentEffect === 'boxRandom'){
+                createBoxes(slider, settings, vars);
+                
+                totalBoxes = settings.boxCols * settings.boxRows;
+                i = 0;
+                timeBuff = 0;
+
+                boxes = shuffle($('.nivo-box', slider));
+                boxes.each(function(){
+                    var box = $(this);
+                    if(i === totalBoxes-1){
+                        setTimeout(function(){
+                            box.animate({ opacity:'1' }, settings.animSpeed, '', function(){ slider.trigger('nivo:animFinished'); });
+                        }, (100 + timeBuff));
+                    } else {
+                        setTimeout(function(){
+                            box.animate({ opacity:'1' }, settings.animSpeed);
+                        }, (100 + timeBuff));
+                    }
+                    timeBuff += 20;
+                    i++;
+                });
+            } else if(currentEffect === 'boxRain' || currentEffect === 'boxRainReverse' || currentEffect === 'boxRainGrow' || currentEffect === 'boxRainGrowReverse'){
+                createBoxes(slider, settings, vars);
+                
+                totalBoxes = settings.boxCols * settings.boxRows;
+                i = 0;
+                timeBuff = 0;
+                
+                // Split boxes into 2D array
+                var rowIndex = 0;
+                var colIndex = 0;
+                var box2Darr = [];
+                box2Darr[rowIndex] = [];
+                boxes = $('.nivo-box', slider);
+                if(currentEffect === 'boxRainReverse' || currentEffect === 'boxRainGrowReverse'){
+                    boxes = $('.nivo-box', slider)._reverse();
+                }
+                boxes.each(function(){
+                    box2Darr[rowIndex][colIndex] = $(this);
+                    colIndex++;
+                    if(colIndex === settings.boxCols){
+                        rowIndex++;
+                        colIndex = 0;
+                        box2Darr[rowIndex] = [];
+                    }
+                });
+                
+                // Run animation
+                for(var cols = 0; cols < (settings.boxCols * 2); cols++){
+                    var prevCol = cols;
+                    for(var rows = 0; rows < settings.boxRows; rows++){
+                        if(prevCol >= 0 && prevCol < settings.boxCols){
+                            /* Due to some weird JS bug with loop vars 
+                            being used in setTimeout, this is wrapped
+                            with an anonymous function call */
+                            (function(row, col, time, i, totalBoxes) {
+                                var box = $(box2Darr[row][col]);
+                                var w = box.width();
+                                var h = box.height();
+                                if(currentEffect === 'boxRainGrow' || currentEffect === 'boxRainGrowReverse'){
+                                    box.width(0).height(0);
+                                }
+                                if(i === totalBoxes-1){
+                                    setTimeout(function(){
+                                        box.animate({ opacity:'1', width:w, height:h }, settings.animSpeed/1.3, '', function(){ slider.trigger('nivo:animFinished'); });
+                                    }, (100 + time));
+                                } else {
+                                    setTimeout(function(){
+                                        box.animate({ opacity:'1', width:w, height:h }, settings.animSpeed/1.3);
+                                    }, (100 + time));
+                                }
+                            })(rows, prevCol, timeBuff, i, totalBoxes);
+                            i++;
+                        }
+                        prevCol--;
+                    }
+                    timeBuff += 100;
+                }
+            }           
+        };
+        
+        // Shuffle an array
+        var shuffle = function(arr){
+            for(var j, x, i = arr.length; i; j = parseInt(Math.random() * i, 10), x = arr[--i], arr[i] = arr[j], arr[j] = x);
+            return arr;
+        };
+        
+        // For debugging
+        var trace = function(msg){
+            if(this.console && typeof console.log !== 'undefined') { console.log(msg); }
+        };
+        
+        // Start / Stop
+        this.stop = function(){
+            if(!$(element).data('nivo:vars').stop){
+                $(element).data('nivo:vars').stop = true;
+                trace('Stop Slider');
+            }
+        };
+        
+        this.start = function(){
+            if($(element).data('nivo:vars').stop){
+                $(element).data('nivo:vars').stop = false;
+                trace('Start Slider');
+            }
+        };
+        
+        // Trigger the afterLoad callback
+        settings.afterLoad.call(this);
+        
+        return this;
+    };
+        
+    $.fn.nivoSlider = function(options) {
+        return this.each(function(key, value){
+            var element = $(this);
+            // Return early if this element already has a plugin instance
+            if (element.data('nivoslider')) { return element.data('nivoslider'); }
+            // Pass options to plugin constructor
+            var nivoslider = new NivoSlider(this, options);
+            // Store plugin object in this element's data
+            element.data('nivoslider', nivoslider);
+        });
+    };
+    
+    //Default settings
+    $.fn.nivoSlider.defaults = {
+        effect: 'sliceUp',
+        slices: 15,
+        boxCols: 8,
+        boxRows: 4,
+        animSpeed: 500,
+        pauseTime: 3000,
+        startSlide: 0,
+        directionNav: true,
+        controlNav: true,
+        controlNavThumbs: false,
+        pauseOnHover: true,
+        manualAdvance: false,
+        prevText: 'Prev',
+        nextText: 'Next',
+        randomStart: false,
+        beforeChange: function(){},
+        afterChange: function(){},
+        slideshowEnd: function(){},
+        lastSlide: function(){},
+        afterLoad: function(){}
+    };
+
+    $.fn._reverse = [].reverse;
+    
+})(jQuery);
+
+//]]>
+</script>
+
+<script type='text/javascript'>
+//<![CDATA[
+
+// NAVIGATION CALLBACK
+var ww = jQuery(window).width();
+jQuery(document).ready(function() { 
+	jQuery(".navnbt li a").each(function() {
+		if (jQuery(this).next().length > 0) {
+			jQuery(this).addClass("parent");
+		};
+	})
+	jQuery(".toggleMenunbt").click(function(e) { 
+		e.preventDefault();
+		jQuery(this).toggleClass("active");
+		jQuery(".navnbt").slideToggle('fast');
+	});
+	adjustMenu();
+})
+
+// navigation orientation resize callbak
+jQuery(window).bind('resize orientationchange', function() {
+	ww = jQuery(window).width();
+	adjustMenu();
+});
+
+var adjustMenu = function() {
+	if (ww < 768) {
+		jQuery(".toggleMenunbt").css("display", "block");
+		if (!jQuery(".toggleMenunbt").hasClass("active")) {
+			jQuery(".navnbt").hide();
+		} else {
+			jQuery(".navnbt").show();
+		}
+		jQuery(".navnbt li").unbind('mouseenter mouseleave');
+	} else {
+		jQuery(".toggleMenunbt").css("display", "none");
+		jQuery(".navnbt").show();
+		jQuery(".navnbt li").removeClass("hover");
+		jQuery(".navnbt li a").unbind('click');
+		jQuery(".navnbt li").unbind('mouseenter mouseleave').bind('mouseenter mouseleave', function() {
+			jQuery(this).toggleClass('hover');
+		});
+	}
+}
+
+jQuery(document).ready(function(){
+	
+	//Check to see if the window is top if not then display button
+	jQuery(window).scroll(function(){
+		if (jQuery(this).scrollTop() > 100) {
+			jQuery('.scrollToTop').fadeIn();
+		} else {
+			jQuery('.scrollToTop').fadeOut();
+		}
+	});
+	
+	//Click event to scroll to top
+	jQuery('.scrollToTop').click(function(){
+		jQuery('html, body').animate({scrollTop : 0},800);
+		return false;
+	});
+	
+});
+
+jQuery(document).ready(function() {
+        if( jQuery( '#slidernbt' ).length > 0 ){
+        jQuery('.nivoSlider').nivoSlider({
+                        effect:'fade',
+                        animSpeed: 500,
+                        pauseTime: 3000,
+                        startSlide: 0,
+						directionNav: true,
+						controlNav: false,
+						pauseOnHover:false,
+    });
+        }
+});
+
+//]]>
+</script>
+
+  <b:include data='blog' name='google-analytics'/>
