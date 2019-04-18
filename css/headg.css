@@ -486,8 +486,6 @@ position: relative;
 #top-navigation {width:auto;float:none;text-align:center; display: none;}
 }
 
-.footer { display: none;
-}
 
 .nivoSlider {
 position:relative;
@@ -600,8 +598,7 @@ float: center;
 width: 100%;
 }
 
-.footer { display: none;
-	}
+
 
 .crosscol {
 margin-bottom :10px;
