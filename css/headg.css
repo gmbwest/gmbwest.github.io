@@ -599,7 +599,6 @@ width: 100%;
 }
 
 
-
 .crosscol {
 margin-bottom :10px;
 float: center;
@@ -609,9 +608,10 @@ display: none;
 }
 
 
-.footer-column section {
-display: none;
-	}
+
+}
+
+
 #top-barnbt {
 	font-size: 10px;
 }
