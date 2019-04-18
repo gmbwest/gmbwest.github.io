@@ -607,11 +607,10 @@ display: none;
 
 }
 
-.footer-wrapper {
-	display: none;
-	
-}
 
+.footer-column section {
+display: none;
+	}
 #top-barnbt {
 	font-size: 10px;
 }
