@@ -813,13 +813,14 @@ overflow: hidden;
 padding: 25px;
 position: relative;
 width: 49%;
-height: 400px;
+height: 1px;
 }
 
 .index-post .index-title {
-  font-size: 120%;
+  font-size: 130%;
   font-weight: 600;
-  
+  margin: 0 0 0 0;
+padding: 0 px;
 line-height: 1.1em;
 
 }
