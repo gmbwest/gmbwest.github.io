@@ -810,14 +810,14 @@ border-bottom: 3px solid #ff4e50;
 float: left;
 margin: 0.0 px;
 overflow: hidden;
-padding: 200px;
+padding: 25px;
 position: relative;
 width: 49%;
 height: 400px;
 }
 
 .index-post .index-title {
-  font-size: 130%;
+  font-size: 500%;
   font-weight: 600;
   margin: 0 0 0 0;
 padding: 0 px;
