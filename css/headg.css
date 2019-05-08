@@ -802,7 +802,7 @@ border-bottom: 3px solid #ff4e50;
 
 
 
-.post-outer > div {
+.\ > div {
   position: relative;
 }
 
@@ -810,7 +810,7 @@ border-bottom: 3px solid #ff4e50;
 float: left;
 margin: 0.0 px;
 overflow: hidden;
-padding: 25px;
+padding: 200px;
 position: relative;
 width: 49%;
 height: 400px;
