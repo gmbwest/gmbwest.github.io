@@ -847,11 +847,11 @@ font-weight: 700;
   overflow:hidden;position:relative;height:auto;margin:0 auto 5px auto;padding:0;z-index:1;
 }
 
-.index-post .entry-content { margin:10px auto 0;padding:0 0 80px;border-bottom: 1px solid #eee;font-size:85%; }
+.index-post .entry-content { margin:100px ;padding:80px;border-bottom: 50px solid #eee;font-size:85%; }
 
 
 
-.index-post .entry-content { margin:10px auto 0;padding:0 0 80px;border-bottom: 1px solid #eee;font-size:85%; }
+.index-post .entry-content { margin:100px ;padding:80px;border-bottom: 50px solid #eee;font-size:85%; }
 .index-post .index-thumbnail img {
 width: 100% !important;
 height: auto !important;
