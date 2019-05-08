@@ -817,10 +817,9 @@ height: 400px;
 }
 
 .index-post .index-title {
-  font-size: 500%;
+  font-size: 120%;
   font-weight: 600;
-  margin: 0 0 0 0;
-padding: 0 px;
+  
 line-height: 1.1em;
 
 }
