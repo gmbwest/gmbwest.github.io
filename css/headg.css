@@ -1599,6 +1599,23 @@ z-index: 1;
     display:none!important;
 }
 
+/* Direction nav styles (e.g. Next & Prev) */		
+.nivo-directionNav a {		
+	position:absolute;		
+	top:40%;		
+	z-index:9;		
+	cursor:pointer;		
+}		
+a.nivo-prevNav {		
+		left:0px;		
+		background-position:-57px 0;		
+		border-radius:0 3px 3px 0;		
+}		
+a.nivo-nextNav {		
+	right:0px;		
+	background-position:-41px 0 !important;		
+	border-radius:3px 0 0 3px;
+}
 /* Control nav styles (e.g. 1,2,3...) */
 .nivo-controlNav {
 	text-align:center;
