@@ -1596,7 +1596,7 @@ z-index: 1;
 }
 
 .nivo-html-caption {
-    display:none!important;
+    display:none !important;
 }
 
 /* Direction nav styles (e.g. Next & Prev) */		
@@ -1604,7 +1604,8 @@ z-index: 1;
 	position:absolute;		
 	top:40%;		
 	z-index:9;		
-	cursor:pointer;		
+	cursor:pointer;
+	display: none !important;
 }		
 a.nivo-prevNav {		
 		left:0px;		
