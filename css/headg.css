@@ -1548,7 +1548,7 @@ a.read-morenbt:hover, a.blog-more:hover{ background-color:#171717;}
 	padding:0;
 	margin:0;
 	z-index:6;
-	display:none !important;
+	display:none;
 	background:white; 
 	filter:alpha(opacity=0); 
 	opacity:0;
@@ -1596,7 +1596,7 @@ z-index: 1;
 }
 
 .nivo-html-caption {
-    display:none !important;
+    display:none;
 }
 
 /* Direction nav styles (e.g. Next & Prev) */		
