@@ -600,13 +600,11 @@ width: 100%;
 .upic { display: none !important; 
 }
 
+	
+.footer-column .section { display: none !important;
+{
+	
 
-#footer { display: none !important;
-}
-	
-.footer { display: none !important;
-}
-	
 .crosscol {
 margin-bottom :10px;
 float: center;
