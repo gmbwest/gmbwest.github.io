@@ -601,6 +601,10 @@ width: 100%;
 }
 
 
+#footer-wrapper { display: none !important;
+}
+	
+	
 .crosscol {
 margin-bottom :10px;
 float: center;
