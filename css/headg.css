@@ -601,11 +601,10 @@ width: 100%;
 }
 
 
-.footer-wrapper { display: none !important;
+#footer { display: none !important;
 }
-
 	
-#footer-wrapper { display: none !important;
+.footer { display: none !important;
 }
 	
 .crosscol {
