@@ -315,6 +315,8 @@ max-width: 1100px;
 overflow: hidden;
 }
 
+.post-navigation { display: none !important;
+}
 
 @media screen and (max-width: 640px) {
 html,
@@ -600,7 +602,8 @@ width: 100%;
 .upic { display: none !important; 
 }
 
-	
+#footer-wrapper { display: none !important; 
+}	
 
 .crosscol {
 margin-bottom :10px;
