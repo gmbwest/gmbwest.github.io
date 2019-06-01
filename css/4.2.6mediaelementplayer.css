@@ -655,7 +655,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 
 .mejs__captions-selector-list-item,
 .mejs__chapters-selector-list-item {
-    color: #ff3f3f;
+    color: #fff;
     cursor: pointer;
     display: block;
     list-style-type: none !important;
@@ -701,7 +701,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 
 .mejs__captions-layer {
     bottom: 0;
-    color: #ff3f3f;
+    color: #fff;
     font-size: 16px;
     left: 0;
     line-height: 20px;
@@ -710,7 +710,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 }
 
 .mejs__captions-layer a {
-    color: #ff3f3f;
+    color: #fff;
     text-decoration: underline;
 }
 
@@ -756,7 +756,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 }
 .mejs__cannotplay,
 .mejs__cannotplay a {
-    color: #ff3f3f;
+    color: #fff;
     font-size: 0.8em;
 }
 
