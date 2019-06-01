@@ -152,8 +152,8 @@
 
 .mejs__container.mejs__audio .mejs__playlist-layer,
 .mejs-container.mejs-audio .mejs-playlist-layer {
-    bottom: 85px;
-    height: calc(100% - 85px) !important;
+    bottom: 500px;
+    height: calc(100% - 500px) !important;
     overflow: auto;
     width: 100% !important;
 }
