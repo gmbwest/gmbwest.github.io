@@ -8,7 +8,7 @@
 }
 .mejs__container.mejs__audio.mejs__no-playlist,
 .mejs-container.mejs-audio.mejs__no-playlist {
-    min-height: 20px;
+    min-height: 60px;
 }
 .mejs__playlist-button,
 .mejs-playlist-button {
