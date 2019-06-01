@@ -31,9 +31,9 @@ prevText: null,
 
 	shuffleText: null,
 
-	playlistTitle: playing,
+	playlistTitle: null,
 
-	currentMessage: pl,	
+	currentMessage: null,	
 });
 
 Object.assign(MediaElementPlayer.prototype, {
