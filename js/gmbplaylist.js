@@ -23,8 +23,17 @@ Object.assign(mejs.MepDefaults, {
 	showPlaylist: true,
 
 	autoClosePlaylist: false,
+prevText: null,
 
-	
+	nextText: null,
+
+	loopText: null,
+
+	shuffleText: null,
+
+	playlistTitle: null,
+
+	currentMessage: null,	
 });
 
 Object.assign(MediaElementPlayer.prototype, {
