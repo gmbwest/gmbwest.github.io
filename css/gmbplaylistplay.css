@@ -136,7 +136,7 @@
 .mejs-playlist-layer {
     background: #222;
     bottom: 40px;
-    color: #ff3f3f;
+    color: #ff5f5f;
     font-size: 12px;
     height: calc(100% - 40px) !important;
     overflow: hidden;
@@ -211,7 +211,7 @@
 }
 .mejs__playlist-current p,
 .mejs-playlist-current p {
-    color: #ff3f3f;
+    color: #ff5f5f;
     font-size: 0.8em;
     margin: 15px 10px;
 }
