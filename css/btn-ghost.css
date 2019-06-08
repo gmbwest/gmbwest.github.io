@@ -18,7 +18,7 @@ a.btn-ghost:hover {
 }
 
 a.btn-ghostt {
-    background: none !important;
+    background: #ff0a12 !important;
     border: 1px solid #ff0a12 !important;
     color: #fff !important;
     font-size: 15px !important;
@@ -29,9 +29,9 @@ a.btn-ghostt {
     letter-spacing: 0 !important;
 }
 a.btn-ghostt:hover {
-    background: #fff!important;
+    background: none !important;
     border: 1px solid #ff0a12 !important;
-    color: #ff0a12!important;
+    color: #ff0a12 !important;
 }
 
 #AdSense1 {
