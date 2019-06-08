@@ -18,9 +18,9 @@ a.btn-ghost:hover {
 }
 
 a.btn-ghostt {
-    background: #ff0a12 !important;
+    background: #ff0a12;
     border: 1px solid #ff0a12 !important;
-    color: #fff !important;
+    color: #fff;
     font-size: 15px !important;
     font-weight: 600 !important;
     border-radius: 4px !important;
