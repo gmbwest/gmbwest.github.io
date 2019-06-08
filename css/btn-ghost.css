@@ -17,6 +17,23 @@ a.btn-ghost:hover {
     color: #fff !important;
 }
 
+a.btn-ghostt {
+    background: none !important;
+    border: 1px solid #ff0a12 !important;
+    color: #ff0a12 !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    border-radius: 4px !important;
+    display: inline-block !important;
+    padding: 5px 10px !important;
+    letter-spacing: 0 !important;
+}
+a.btn-ghostt:hover {
+    background: #fff !important;
+    border: 1px solid #ff0a12 !important;
+    color: #ff0a12 !important;
+}
+
 #AdSense1 {
     text-align: center;
 }
