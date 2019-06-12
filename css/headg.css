@@ -1001,6 +1001,10 @@ h1.post-title strong, h1.post-title a:hover, h2.post-title strong, h2.post-title
 
 }
 
+.formFooter.f6
+{ display: none !imortant;
+}
+
 /* Hiding Header Date and Feed Links
 ----------------------------------------------- */
 
