@@ -1001,9 +1001,7 @@ h1.post-title strong, h1.post-title a:hover, h2.post-title strong, h2.post-title
 
 }
 
-.formFooter.f6
-{ display: none !imortant;
-}
+
 
 /* Hiding Header Date and Feed Links
 ----------------------------------------------- */
@@ -1795,3 +1793,9 @@ padding-left:0px !important;
 #label_with_thumbs strong {padding-left:0px; }
 
 #ContactForm1{display: none !important;}
+
+.formFooter f6
+{ display: none !important;
+}
+
+
