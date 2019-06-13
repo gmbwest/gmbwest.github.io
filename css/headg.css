@@ -341,7 +341,7 @@ overflow: hidden;
 }
 
 #sidebar-wrapper {
-  position: relative;
+  float: right;
   width: 31%;
   word-wrap: break-word;
   overflow: hidden; 
