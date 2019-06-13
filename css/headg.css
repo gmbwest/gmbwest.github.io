@@ -343,8 +343,8 @@ overflow: hidden;
 }
 
 #sidebar-wrapper {
-  float: none !important;
-  width: 100%;
+  float: right;
+  width: 32%;
   word-wrap: break-word;
   overflow: hidden; 
 }
