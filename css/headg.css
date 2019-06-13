@@ -1735,6 +1735,8 @@ font-size: 30%;
 
 #header {margin: 0 auto 20px;}
 
+#sidebar-wrapper,
+.sidebar {float:none;width:100%;}
 
 
 }
