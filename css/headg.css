@@ -1792,11 +1792,3 @@ padding-left:0px !important;
 
 #ContactForm1{display: none !important;}
 
-.grid-small li{position:relative;display:inline-block;vertical-align:top;width:calc(33.33333333% - 40px / 3);overflow:hidden;margin:20px 0 0 20px }
-.grid-small li:nth-child(3n+1){margin:20px 0 0 }.grid-small li.item-0{margin:0 }.grid-small li.item-1,.grid-small li.item-2{margin:0 0 0 20px }
-.grid-small h1.post-image-link{position:relative;float:left;width:100%;height:120px;display:block;overflow:hidden;margin:0 0 7px }
-.grid-small h1.post-title{overflow:hidden;font-size:14px;font-weight:700;line-height:1.5em;margin:0 0 5px }.grid-small .post-info{float:left }
-.grid-small h1.post-title a{color:#111111;transition:color .17s ease }.grid-small .post-title a:hover{color:#ffd012 }
-.grid-small h1.post-meta{font-size:11px }ul.grid-big{float:left;display:flex;flex-wrap:wrap;margin:0 -15px }
-.grid-small li,.feat-big .item-small{width:100%;padding:0;margin:20px 0 0 }
-.grid-small li:nth-child(3n+1){margin:20px 0 0 }.grid-small li.item-1,.grid-small li.item-2{margin:20px 0 0 }
