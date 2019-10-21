@@ -919,11 +919,11 @@ h1.post-title strong, h1.post-title a:hover, h2.post-title strong, h2.post-title
 }
 
 .post-header {
-    font-size: 50px;
+    font-size: 14px;
     margin: 0 auto;
-    padding: 25rem;
-    line-height: 80px;
-    min-height: 90px;
+    padding: 1rem;
+    line-height: 24px;
+    min-height: 17px;
 
 }
 
