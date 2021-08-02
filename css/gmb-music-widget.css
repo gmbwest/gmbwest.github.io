@@ -1,5 +1,5 @@
     /**Song Widgets */
-    .njl-music-widget {
+    .gmb-music-widget {
       display: block;
       background: none repeat scroll 0 0 #050505;
       border: 1px solid #ccc;
@@ -9,7 +9,7 @@
       margin-bottom: 20px;
     }
 
-    .njl-music-widget::before {
+    .gmb-music-widget::before {
       content: "";
       display: block;
       height: 14px;
@@ -22,7 +22,7 @@
       top: 8px;
     }
 
-    .njl-music-widget .artwork {
+    .gmb-music-widget .artwork {
       display: block;
       background-size: cover;
       background-repeat: no-repeat;
@@ -36,11 +36,11 @@
       height: 100px;
     }
 
-    .njl-music-widget .artwork img {
+    .gmb-music-widget .artwork img {
       display: none;
     }
 
-    .njl-music-widget .details {
+    .gmb-music-widget .details {
       display: block;
       line-height: 20px;
       overflow: hidden;
@@ -50,7 +50,7 @@
       padding-left: 10px;
     }
 
-    .njl-music-widget .details .song {
+    .gmb-music-widget .details .song {
       font-family: "Helvetica Neue", helvetica, arial, sans-serif;
       display: block;
       font-weight: 800;
@@ -58,20 +58,20 @@
       margin-bottom: 10px;
     }
 
-    .njl-music-widget .details .artist {
+    .gmb-music-widget .details .artist {
       font-size: 14px;
       font-weight: normal;
     }
 
-    .njl-music-widget .player-wrapper {
+    .gmb-music-widget .player-wrapper {
       display: block;
     }
 
-    .njl-music-widget .player-wrapper br {
+    .gmb-music-widget .player-wrapper br {
       display: none;
     }
 
-    .njl-music-widget .mejs-container {
+    .gmb-music-widget .mejs-container {
       margin: 0 !important;
     }
 
@@ -88,18 +88,18 @@
         width: 25%;
       }
 
-      .njl-music-widget .details {
+      .gmb-music-widget .details {
         padding-top: 15px;
       }
 
       /* .njl-music-widget .mejs-container  */
-      .njl-music-widget .player-wrapper {
+      .gmb-music-widget .player-wrapper {
         width: 72% !important;
         float: right;
         margin-top: 0px !important;
       }
 
-      .njl-music-widget::after {
+      .gmb-music-widget::after {
         content: "";
         display: block;
         clear: both;
