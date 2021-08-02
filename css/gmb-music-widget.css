@@ -1,0 +1,107 @@
+    /**Song Widgets */
+    .njl-music-widget {
+      display: block;
+      background: none repeat scroll 0 0 #050505;
+      border: 1px solid #ccc;
+      padding: 15px;
+      position: relative;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+
+    .njl-music-widget::before {
+      content: "";
+      display: block;
+      height: 14px;
+      width: 100px;
+      background: url(https://www.naijaloaded.com.ng/wp-content/uploads/naijaloaded-logo-1.png) no-repeat;
+      background-size: contain;
+      background-position: right;
+      position: absolute;
+      right: 10px;
+      top: 8px;
+    }
+
+    .njl-music-widget .artwork {
+      display: block;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      float: left;
+      top: 10px;
+      line-height: 0;
+      margin-right: 5px;
+      margin-bottom: 15px;
+      width: 100px;
+      height: 100px;
+    }
+
+    .njl-music-widget .artwork img {
+      display: none;
+    }
+
+    .njl-music-widget .details {
+      display: block;
+      line-height: 20px;
+      overflow: hidden;
+      margin-bottom: 10px;
+      color: #fff;
+      padding-top: 25px;
+      padding-left: 10px;
+    }
+
+    .njl-music-widget .details .song {
+      font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+      display: block;
+      font-weight: 800;
+      font-size: 17px;
+      margin-bottom: 10px;
+    }
+
+    .njl-music-widget .details .artist {
+      font-size: 14px;
+      font-weight: normal;
+    }
+
+    .njl-music-widget .player-wrapper {
+      display: block;
+    }
+
+    .njl-music-widget .player-wrapper br {
+      display: none;
+    }
+
+    .njl-music-widget .mejs-container {
+      margin: 0 !important;
+    }
+
+    .download-btn-wrapper {
+      display: block;
+      text-align: center;
+    }
+
+
+    @media (min-width: 992px) {
+      .njl-music-widget .artwork {
+        margin-bottom: 0;
+        height: 130px;
+        width: 25%;
+      }
+
+      .njl-music-widget .details {
+        padding-top: 15px;
+      }
+
+      /* .njl-music-widget .mejs-container  */
+      .njl-music-widget .player-wrapper {
+        width: 72% !important;
+        float: right;
+        margin-top: 0px !important;
+      }
+
+      .njl-music-widget::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+    }
