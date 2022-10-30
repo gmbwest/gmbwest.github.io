@@ -12,13 +12,13 @@
     .gmbw-music-widget::before {
       content: "";
       display: block;
-      height: 50px;
+      height: 14px;
       width: 100px;
       background: url(https://www.naijaloaded.com.ng/wp-content/uploads/naijaloaded-logo-1.png) no-repeat;
       background-size: contain;
       background-position: right;
       position: absolute;
-      right: 40px;
+      right: 10px;
       top: 8px;
     }
 
