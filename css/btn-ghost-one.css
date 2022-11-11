@@ -32,8 +32,8 @@
       line-height: 0;
       margin-right: 5px;
       margin-bottom: 15px;
-      width: 168px;
-      height: 168px;
+      width: 100%;
+      height: 100%;
     }
 
     .gmbw-music-widget .artwork img {
