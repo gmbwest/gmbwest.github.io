@@ -1435,9 +1435,11 @@ width: 49%;
 
 /* Breadcrumbs
 --------------------------------------------------*/
-.breadcrumbs{
+
+.breadcrumbs {
   width:100%;
-  font-size: 25px;
+  font-size: 13px;
+   font-weight: 10px;
 text-transform: uppercase;
 font-weight: 100;
   color: #222;
