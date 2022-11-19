@@ -1447,6 +1447,7 @@ padding: 0;
 .breadcrumbs a {
 	color: #222;
 	padding: 0 5px;
+	font-weight: 100px;
 }
 
 .breadcrumbs a:hover {
