@@ -137,7 +137,7 @@ sup {
     vertical-align: baseline;
 }
 sup {
-    top: -0.5em;
+    top: -0.5em; 
 }
 sub {
     bottom: -0.25em;
@@ -901,9 +901,9 @@ display: none !important;
 
 h1.post-title, h2.post-title {
   margin: .25em 0 0;
-  padding: 0 0 2px;
-  font-size: 200%;
-  font-weight: 200;
+  padding: 10px 0 25px;
+  font-size: 300%;
+  font-weight: 0;
   line-height: 1.1em;
 
 }
