@@ -309,9 +309,7 @@ background-color:#fff;
 
 #outer-wrapper {
 background-color: #fff;
-margin:  0px auto;
-max-width: 1100px;
-overflow: hidden;
+
 }
 
 .post-navigation { display: none !important;
