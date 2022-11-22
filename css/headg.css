@@ -415,7 +415,7 @@ min-height: 0px;
 #header-top {
   background: #333;
 	border-top: 3px solid #ff4e50;
- 	height: auto;
+ 	height: 45px;
 	color: #fff;
 	overflow:hidden;
 position:relative;
@@ -634,13 +634,12 @@ display: none !important;
 
 #nav-bar {
 	font-family: "Roboto", Arial, sans-serif;
-	font-size: 14px;
 	font-weight: 500;
 	background: #333;
 	height: 48px;
 	line-height: 48px;
 	text-transform:uppercase;
-	border-bottom: 3px solid #ff4e50;
+	padding: 1px 1.5%;
 }
 ul.nav-menu {
 	background: #333;
@@ -726,7 +725,6 @@ border-bottom: 3px solid #ff4e50;
 	line-height: 32px;
 	margin: 0;
 	padding: 0 10px;
-	width: 150px;
 	color: #777;
 	border: none;
 	text-transform: auto;
