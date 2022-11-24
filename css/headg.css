@@ -1445,9 +1445,9 @@ padding: 0;
 }
 
 .breadcrumbs a {
-	
-	color: #222;
-	padding: 0 5px;
+	background-color: #ff4e50;
+	color: #fff;
+	padding: 5px 5px 5px;
 	
 }
 
