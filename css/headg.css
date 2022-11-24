@@ -1445,14 +1445,14 @@ padding: 0;
 }
 
 .breadcrumbs a {
-	background-color: #ff8182;
+	background-color: #ff6869;
 	color: #fff;
 	padding: 5px 5px 5px;
 	
 }
 
 .breadcrumbs a:hover {
-    color: #fff;
+    color: #333;
 }
 
 .baseTitle{border-bottom:3px solid #e6e6e6;text-align:center;color: #444;font-size: 1.1em; padding:0.5rem;margin-bottom:30px;text-transform:uppercase;}
