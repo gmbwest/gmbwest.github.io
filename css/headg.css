@@ -1434,7 +1434,7 @@ width: 49%;
 --------------------------------------------------*/
 
 .breadcrumbs {
-	background-color: ##ff4e50;
+	
   width:100%;
   font-size: 13px;
 	font-weight: 100;
@@ -1445,7 +1445,7 @@ padding: 0;
 }
 
 .breadcrumbs a {
-	background-color: ##ff4e50;
+	
 	color: #222;
 	padding: 0 5px;
 	
