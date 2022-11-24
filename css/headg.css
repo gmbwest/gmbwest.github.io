@@ -1440,13 +1440,13 @@ width: 49%;
 text-transform: uppercase;
   color: #222;
 padding: 0;
-background-color: ##ff4e50;
+
 }
 
 .breadcrumbs a {
 	color: #222;
 	padding: 0 5px;
-	
+	background-color: ##ff4e50;
 }
 
 .breadcrumbs a:hover {
