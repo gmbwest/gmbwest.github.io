@@ -886,7 +886,7 @@ display: none !important;
 display: none !important;
 }
 
-.index-post .post-timestamp {
+.index-post  {
   margin-left: 0px;
   display: none !important; 
 }
@@ -1452,6 +1452,12 @@ padding: 0;
 	
 }
 
+
+
+.breadcrumbs a:hover {
+    color: #333;
+}
+
 .post-timestamp {
 	
   width:100%;
@@ -1462,9 +1468,7 @@ padding: 0;
 
 }
 
-.breadcrumbs a:hover {
-    color: #333;
-}
+
 
 .baseTitle{border-bottom:3px solid #e6e6e6;text-align:center;color: #444;font-size: 1.1em; padding:0.5rem;margin-bottom:30px;text-transform:uppercase;}
 
