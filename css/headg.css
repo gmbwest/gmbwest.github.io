@@ -625,8 +625,8 @@ display: none !important;
     display: none;
     background: #ff4e50;
     padding: 0 15px;
-	height: 48px;
-	line-height: 48px;
+    height: 48px;
+    line-height: 48px;
     color: #fff !important;
 }
 
@@ -639,12 +639,13 @@ display: none !important;
 	text-transform:uppercase;
 	padding: 1px 1.5%;
 }
+
 ul.nav-menu {
 	background: #333;
-    list-style: none;
+        list-style: none;
 	margin: 0;
 	padding:0;
-     *zoom: 1;
+        *zoom: 1;
 	float: left;  
 }
 ul.nav-menu:before,
