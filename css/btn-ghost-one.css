@@ -89,7 +89,7 @@
       .gmbw-music-widget .artwork {
         margin-bottom: 0;
         height: 130px;
-        width: 25%;
+        width: 22%;
       }
 
       .gmbw-music-widget .details {
@@ -99,7 +99,7 @@
       /* .gmbw-music-widget .mejs-container  */
       .gmbw-music-widget .player-wrapper {
         width: 72% !important;
-        float: right;
+        float: left;
         margin-top: 0px !important;
       }
 
