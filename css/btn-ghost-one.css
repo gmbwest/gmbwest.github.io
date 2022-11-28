@@ -98,7 +98,7 @@
 
       /* .gmbw-music-widget .mejs-container  */
       .gmbw-music-widget .player-wrapper {
-        width: 100% !important;
+        width: 60% !important;
         float: left;
         margin-top: 0px !important;
       }
