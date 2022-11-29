@@ -15,13 +15,14 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 }
 
 .mejs__container {
-    background: #000;
+    background: #1E1E1E;
     box-sizing: border-box;
     font-family: 'Helvetica', Arial, serif;
     position: relative;
     text-align: left;
     text-indent: 0;
     vertical-align: top;
+    margin-left: 10px;
 }
 
 .mejs__container * {
