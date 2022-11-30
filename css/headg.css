@@ -1024,6 +1024,13 @@ div.status-msg-bg, div.status-msg-wrap {
 
 }
 
+div.status-msg-wrap {
+font-size: 110%;
+    width: 100%;
+    margin: 10px auto;
+    position: relative;
+}
+
 
 
 .status-msg-hidden {
