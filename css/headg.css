@@ -1025,26 +1025,17 @@ div.status-msg-bg, div.status-msg-wrap {
 
 
 
-.status-msg-border {
-   border-bottom: 3px solid #ff4e50;
-}
-
-.status-msg-bg {
-    background-color: #333;
-	margin: 0px;
-	padding: 10px 10px;
-}
-
 .status-msg-hidden {
     visibility: hidden;
     padding: 0;
 }
 
 .status-msg-body {
+	
 	color: #fff;
-    font-weight: 500;
+	background-color: #333;
+	border-bottom: 3px solid #ff4e50;
     padding: 10px 20px;
-    width: 100%;
     position: absolute;
     z-index: 4;
 }
