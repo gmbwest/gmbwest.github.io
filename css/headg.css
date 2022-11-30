@@ -998,17 +998,28 @@ h1.post-title strong, h1.post-title a:hover, h2.post-title strong, h2.post-title
 
 .more-music
 {
-    background: #343434;
+    
+    
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-size: 15px;
+    border-bottom: 2px solid #A1A1A1;
+    
+}
+
+@media (max-width: 991px) { 
+	
+	.more-music {
+	background: #343434;
     color: #fff;
     text-align: center;
     padding: 4px 100px;
     text-transform: uppercase;
     margin-bottom: 5px;
     font-size: 15px;
-    border-bottom: 3px solid #ff4e50;
-    
+    border-bottom: 3px solid #ff4e50; }
 }
-
 
 
 /* Hiding Header Date and Feed Links
