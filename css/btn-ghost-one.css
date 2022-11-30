@@ -59,7 +59,7 @@
     }
 
     .gmbw-music-widget .details .artist {
-      font-size: 14px;
+    
       font-weight: normal;
     }
 
@@ -111,32 +111,6 @@
     }
 
 
-
- @media (max-width: 992px) 
-
-   .gmbw-music-widget .artwork {
-        margin-bottom: 0;
-        height: 130px;
-        width: 19%;
-      }
-
-      .gmbw-music-widget .details {
-        padding-top: 15px;
-      }
-
-      /* .gmbw-music-widget .mejs-container  */
-      .gmbw-music-widget .player-wrapper {
-        width: 72% !important;
-        float: right;
-        margin-top: 0px !important;
-      }
-
-      .gmbw-music-widget::after {
-        content: "";
-        display: block;
-        clear: both;
-      }
-    }
 
   
   
