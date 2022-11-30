@@ -1023,12 +1023,7 @@ div.status-msg-bg, div.status-msg-wrap {
 
 }
 
-.status-msg-wrap {
-    font-size: 150%;
-	color: #fff	
-    margin-bottom: 5px;
-	position: relative;
-}
+
 
 .status-msg-border {
    border-bottom: 3px solid #ff4e50;
@@ -1046,6 +1041,7 @@ div.status-msg-bg, div.status-msg-wrap {
 }
 
 .status-msg-body {
+	color: #fff;
     font-weight: 500;
     padding: 10px 20px;
     width: 100%;
