@@ -1025,9 +1025,8 @@ div.status-msg-bg, div.status-msg-wrap {
 
 .status-msg-wrap {
     font-size: 150%;
-	color: #fff
-	width: 100%;
-    margin-bottom:30px;
+	color: #fff	
+    margin-bottom: 5px;
 	position: relative;
 }
 
