@@ -1003,9 +1003,10 @@ h1.post-title strong, h1.post-title a:hover, h2.post-title strong, h2.post-title
     text-align: center;
     padding: 4px 100px;
     text-transform: capitalize;
-    margin-top: 5px;
     margin-bottom: 5px;
     font-size: 18px;
+	font-weight: 500;
+    border-bottom: 3px solid #ff4e50;
     
 }
 
