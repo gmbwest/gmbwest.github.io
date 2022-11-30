@@ -59,8 +59,10 @@
     }
 
     .gmbw-music-widget .details .artist {
-    
+       
+      display: block;
       font-weight: normal;
+      margin-bottom: 5px;
     }
 
     .gmbw-music-widget .player-wrapper {
