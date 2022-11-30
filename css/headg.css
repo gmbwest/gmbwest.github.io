@@ -1025,17 +1025,18 @@ div.status-msg-bg, div.status-msg-wrap {
 
 .status-msg-wrap {
     font-size: 150%;
+	color: #fff
 	width: 100%;
     margin-bottom:30px;
 	position: relative;
 }
 
 .status-msg-border {
-    border: 0px solid #000;
+   border-bottom: 3px solid #ff4e50;
 }
 
 .status-msg-bg {
-    background-color: #ccc;
+    background-color: #333;
 	margin: 0px;
 	padding: 10px 10px;
 }
@@ -1046,19 +1047,15 @@ div.status-msg-bg, div.status-msg-wrap {
 }
 
 .status-msg-body {
-  
-    background-color: #333;
-   
-}
-
-.status-msg-body a {
-   font-weight: 500;
-    color: #ff4e50
+    font-weight: 500;
     padding: 10px 20px;
     width: 100%;
     position: absolute;
     z-index: 4;
 }
+
+
+
 
 /* Code Styling
 ----------------------------------------------- */
