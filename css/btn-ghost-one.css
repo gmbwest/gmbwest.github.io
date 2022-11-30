@@ -41,6 +41,7 @@
     }
 
     .gmbw-music-widget .details {
+      text-transform: uppercase;
       display: block;
       line-height: 20px;
       overflow: hidden;
@@ -54,7 +55,7 @@
       display: block;
       font-weight: 800;
       font-size: 17px;
-      margin-bottom: 10px;
+      margin-bottom: 11px;
     }
 
     .gmbw-music-widget .details .artist {
