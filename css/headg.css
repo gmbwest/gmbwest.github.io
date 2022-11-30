@@ -1046,7 +1046,8 @@ div.status-msg-bg, div.status-msg-wrap {
 }
 
 .status-msg-body {
-    text-align: left;
+   font-weight: 500;
+	color: #ff4e50
     padding: 10px 20px;
     width: 100%;
     position: absolute;
