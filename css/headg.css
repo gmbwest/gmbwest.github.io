@@ -1134,9 +1134,10 @@ font-size:20px;
 .popularposttitle { 
 	font-family: "Kanit", sans-serif;
 	font-size: 25px;
+	padding: 5px 15px;
     line-height: 1.190em;
 	text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 700;
 	color: #333;
        
     
