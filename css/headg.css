@@ -1131,6 +1131,12 @@ font-size:20px;
 }
 
 
+.popularposttitle { 
+	font-size: 25px;
+    line-height: 1.190em;
+	text-transform: uppercase;
+    font-weight: 700;
+	color: #333; }
 
 
 
