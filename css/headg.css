@@ -1124,25 +1124,10 @@ object-fit: cover;
 display: block;
 margin: 0 auto;
 padding: 5px 10px;
-font-size:15px;
-font-family: 'Playfair Display', serif;
+font-size:50px;
+
 }
-.sidebar .PopularPosts .item-snippet {
-background: rgba(0, 0, 0, 0.35);
-border-top: 6px solid rgba(0, 0, 0, 0.1);
-border-bottom: 6px solid rgba(0, 0, 0, 0.1);
-color: #FFFFFF;
-left: 0px;
-right: 0px;
-margin: 0px auto;
-padding: 65px 10px 10px;
-position: absolute;
-font: 13px "Times New Roman",Times,FreeSerif,serif;
-text-align: center;
-top: 35px;
-width: 60%;
-z-index: 1;
-}
+
 .sidebar .PopularPosts .item-content {
 position: relative;
 }
