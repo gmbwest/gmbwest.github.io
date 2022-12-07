@@ -1122,8 +1122,10 @@ padding: 0;
 .sidebar .PopularPosts .item-title a {
 display: block;
 margin: 0 auto;
-padding: 5px 10px;
-font-size:15px;
+padding: 10px 0;
+font-size:20px;
+	line-height: 1.190em;
+	font-weight: 700;
 	color:#333;
 
 }
