@@ -1143,6 +1143,18 @@ font-size:20px;
     
 }
 
+.homepagefeaturedvideotitle { 
+	font-family: "Kanit", sans-serif;
+	font-size: 18px;
+	padding: 5px 15px;
+    line-height: 1.190em;
+	align: left;
+    font-weight: 700;
+	color: #333;
+       
+    
+}
+
 
 
 
