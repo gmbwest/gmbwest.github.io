@@ -1146,7 +1146,8 @@ font-size:20px;
 .homepagefeaturedvideotitle { 
 	font-family: "Kanit", sans-serif;
 	font-size: 18px;
-	color: #fff;
+	color: #E9E9E9;
+	text-transform: uppercase;
 	background-color: #333;
 	padding: 5px 15px;
     line-height: 1.190em;
