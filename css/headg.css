@@ -1139,8 +1139,7 @@ font-size:20px;
 	text-transform: uppercase;
     font-weight: 700;
 	color: #333;
-       
-    
+   
 }
 
 .homepagefeaturedvideotitle { 
@@ -1152,11 +1151,19 @@ font-size:20px;
 	padding: 5px 15px;
     line-height: 1.190em;
     font-weight: 700;
-	
-       
     
 }
 
+.b4homepagefeaturedvideoloads { 
+	
+	font-family: "Kanit", sans-serif;
+	color: #EA1A1A1;
+	background-color: #EEEEEE;
+    padding-top:5px;
+    padding-right:5px;
+    padding-left: 5px;
+
+}
 
 
 
