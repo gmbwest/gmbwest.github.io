@@ -352,7 +352,17 @@ width: 20%;
 
 }
 
-#footer-top {
+#footer-wrapper {
+	
+max-width: 1067px;
+margin: 10px auto;
+position: relative;
+overflow: hidden;
+!important;
+	
+}
+
+#crosscol-wrapper {
 	
 max-width: 1067px;
 margin: 10px auto;
