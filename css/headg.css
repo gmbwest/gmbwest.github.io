@@ -352,7 +352,15 @@ width: 20%;
 
 }
 
-
+#footer-wrapper {
+	
+max-width: 1067px;
+margin: 10px auto;
+position: relative;
+overflow: hidden;
+!important;
+	
+}
 
 
 /* Typography
