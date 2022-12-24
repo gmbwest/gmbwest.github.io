@@ -1686,14 +1686,21 @@ font-size: 30%;
 
 /* Recent posts by labels
 ——————————— */
+.crosscol-wrapper .label_thumb .item-thumbnail {
+height: 150px;
+margin: 0;
+overflow: hidden;
+width: 70%;
+position: relative;
+}
+
+
+
+
 img.label_thumb{
 
-position: relative;
-	
-  width: auto !important; /*override the width below*/
   width: 100%;
-  max-width: 200px;
-  clear: both;
+
 	
 }
 
@@ -1708,7 +1715,7 @@ padding: 0;
 #label_with_thumbs a {
   color: #333;
   }
-# label_with_thumbs a:hover {
+#label_with_thumbs a:hover {
   color: #ff4e50;
   }
 
