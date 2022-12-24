@@ -1693,14 +1693,20 @@ width:145px; /* Thumbnail width */
 }
 
 #label_with_thumbs {
-color: #333;
 	
-width: 20%;
+color: #333;
+width: 10%;
 min-height: 70px;
 margin: 0px 10px 2px 0px;
-padding: 0;
+padding: 0; 
 }
 
+.label_with_thumbs a {
+  color: #333;
+  }
+.label_with_thumbs a:hover {
+  color: #ff4e50;
+  }
 
 #label_with_thumbs strong {padding-left:0px; }
 
