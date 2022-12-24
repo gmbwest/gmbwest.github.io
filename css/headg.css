@@ -1703,8 +1703,8 @@ width:130px; /* Thumbnail width */
 
 #label_with_thumbs {
 float: left;
-width: 100%;
-min-height: 150px;
+width: 10%;
+min-height: 70px;
 margin: 0px 10px 2px 0px;
 padding: 0;
 }
