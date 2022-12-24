@@ -355,7 +355,6 @@ width: 20%;
 #footer-wrapper {
 	
 max-width: 1067px;
-margin: 10px auto;
 position: relative;
 overflow: hidden;
 !important;
@@ -1695,15 +1694,18 @@ font-size: 30%;
 /* Recent posts by labels
 ——————————— */
 img.label_thumb{
+display: inline-block;	
 float:left;
 margin-right:10px !important;
 height:70px; /* Thumbnail height */
 width:130px; /* Thumbnail width */
+	
 }
 
 #label_with_thumbs {
+display: inline-block;	
 float: left;
-width: 10%;
+width: 20%;
 min-height: 70px;
 margin: 0px 10px 2px 0px;
 padding: 0;
