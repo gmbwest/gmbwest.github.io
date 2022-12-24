@@ -1687,11 +1687,13 @@ font-size: 30%;
 /* Recent posts by labels
 ——————————— */
 img.label_thumb{
-height: 190px;
-margin: 0;
-overflow: hidden;
-width: 100%;
+
 position: relative;
+	
+  width: auto !important; /*override the width below*/
+  width: 100%;
+  max-width: 200px;
+  clear: both;
 	
 }
 
