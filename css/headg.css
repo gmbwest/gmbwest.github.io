@@ -1687,24 +1687,26 @@ font-size: 30%;
 /* Recent posts by labels
 ——————————— */
 img.label_thumb{
-margin-right:10px !important;
-width:145px; /* Thumbnail width */
+height: 190px;
+margin: 0;
+overflow: hidden;
+width: 100%;
+position: relative;
 	
 }
 
 #label_with_thumbs {
-	
 color: #333;
-width: 10%;
+width: 20%;
 min-height: 70px;
 margin: 0px 10px 2px 0px;
 padding: 0; 
 }
 
-.label_with_thumbs a {
+#label_with_thumbs a {
   color: #333;
   }
-.label_with_thumbs a:hover {
+# label_with_thumbs a:hover {
   color: #ff4e50;
   }
 
