@@ -1729,14 +1729,14 @@ ul.recent_posts_with_thumbs li p {margin: 0.3em 0; font-size: 11px;}
 
 
 .crosscol-msg-body {
-    font-family: "Kanit", sans-serif;
-    font-size: 20px;
+    font-size: 130%;
     font-weight: 700;
     text-align: left;
     border-bottom: 3px solid #ff4e50;
     padding: 5px 0px;
     margin-bottom: 7px;
     width: 97.8%;
+    color: #666;
   
 }
 
