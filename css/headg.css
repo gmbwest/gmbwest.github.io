@@ -1728,7 +1728,14 @@ ul.recent_posts_with_thumbs li p {margin: 0.3em 0; font-size: 11px;}
  
 
 
-
+.crosscol-msg-body {
+    color: #fff;	
+    background-color: #333;
+    border-bottom: 3px solid #ff4e50;
+    padding: 5px 0px;
+    position: absolute;
+    z-index: 4;
+}
 
 
 
