@@ -629,60 +629,6 @@ display: none !important;
 
 
 
-
-
-/* Blogger CSS for 404 Page
------------------------------------------------ */
-.status-msg-wrap, body.error404 .error404 {
-    font-size: 110%;
-    width: 90%;
-    margin: 10px auto;
-    position: relative
-}
-
-.status-msg-border, body.error404 .error404 {
-    border: 1px solid #000;
-    filter: alpha(opacity=40);
-    -moz-opacity: .4;
-    opacity: .4;
-    width: 100%;
-    position: relative
-}
-
-.status-msg-bg, body.error404 .error404 {
-    background-color: #ccc;
-    opacity: .8;
-    filter: alpha(opacity=30);
-    -moz-opacity: .8;
-    width: 100%;
-    position: relative;
-    z-index: 1
-}
-
-.status-msg-body, body.error404 .error404 {
-    text-align: center;
-    padding: .3em 0;
-    width: 100%;
-    position: absolute;
-    z-index: 4
-}
-
-.status-msg-hidden, body.error404 .error404 {
-
-    padding: .3em 0
-}
-
-.status-msg-wrap a  {
-    padding-left: .4em;
-    text-decoration: underline
-}
-
-
-
-
-
-
-
 /* -------------PRIMARY NAV MENU--------------- */
 
 .toggleMenu {
@@ -1097,11 +1043,11 @@ div.status-msg-body > b {
 display: block!important;
 
 }
-div.status-msg-bg, div.status-msg-wrap, body.error404 .error404 {
+div.status-msg-bg, div.status-msg-wrap {
 
 }
 
-div.status-msg-wrap .error404 {
+div.status-msg-wrap {
 font-size: 110%;
     width: 100%;
     margin: 10px auto;
@@ -1110,12 +1056,12 @@ font-size: 110%;
 
 
 
-.status-msg-hidden, body.error404 .error404 {
-    visibility: show;
+.status-msg-hidden {
+    visibility: hidden;
     padding: 0;
 }
 
-.status-msg-body, body.error404 .error404 {
+.status-msg-body {
 	
 	color: #fff;
 	background-color: #333;
@@ -1307,7 +1253,7 @@ background:#ff4e50;
 margin:0 8px 0 0;
 text-decoration:none;
 font-size:85%;
-display: none !important;
+display:none!important;
 }
 .showpagePoint {
 background:#ff4e50; 
@@ -1799,3 +1745,4 @@ ul.recent_posts_with_thumbs li p {margin: 0.3em 0; font-size: 11px;}
 
 
 #ContactForm1{display: none !important;}
+
