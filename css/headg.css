@@ -1057,18 +1057,9 @@ font-size: 110%;
 
 
 .status-msg-hidden {
-float:left;
-width:100%;
-font-size:14px;
-color:var(--text-color);
-font-weight:400;
-text-align:center;
-margin:50px 0
+    visibility: hidden;
+    padding: 0;
 }
-
-
-
-   
 
 .status-msg-body {
 	
