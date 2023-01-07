@@ -1038,37 +1038,36 @@ h1.post-title strong, h1.post-title a:hover, h2.post-title strong, h2.post-title
 /* Hiding Header Date and Feed Links
 ----------------------------------------------- */
 
-.date-header,span.blog-admin{display: none !important;}
+.date-header,span.blog-admin{display:none;}
 div.status-msg-body > b {
 display: block!important;
-
 }
 div.status-msg-bg, div.status-msg-wrap {
-
 }
-
-div.status-msg-wrap {
-font-size: 110%;
-    width: 100%;
-    margin: 10px auto;
-    position: relative;
+.status-msg-wrap {
+font-size: 150%;
+width: 100%;
+margin-bottom:30px;
+position: relative;
 }
-
-
-
+.status-msg-border {
+border: 0px solid #000;
+}
+.status-msg-bg {
+background-color: #ccc;
+margin: 0px;
+padding: 10px 10px;
+}
 .status-msg-hidden {
-    visibility: hidden;
-    padding: 0;
+visibility: hidden;
+padding: 0;
 }
-
 .status-msg-body {
-	
-	color: #fff;
-	background-color: #333;
-	border-bottom: 3px solid #ff4e50;
-    padding: 5px 0px;
-    position: absolute;
-    z-index: 4;
+text-align: left;
+padding: 10px 20px;
+width: 100%;
+position: absolute;
+z-index: 4;
 }
 
 
