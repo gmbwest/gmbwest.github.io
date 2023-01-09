@@ -1197,24 +1197,26 @@ background-color: #EEEEEE;
 }
 
 .b4contentsidebarimg {
-	display: block;
-	float: right;
+	display:block;
+	float:right;
+
+	#b4contentsidebarimgfirst {
+	
 	background-color: #EEEEEE;
 	width: 280px;
 	height: 250px;
-	margin-bottom:10px;
+	margin-bottom:10px; }
 	
-}
-
-.b4contentsidebarimgtitle {
-	display: block;
-	float: right;
+	#b4contentsidebarimgtitle {
+	
 	background-color: #EEEEEE;
 	width: 190px;
 	height: 30px;
-	border-radius: 10px;
-
+	border-radius: 10px; }
+	
 }
+
+
 
 /* Comments
 ----------------------------------------------- */
