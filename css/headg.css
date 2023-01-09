@@ -1198,18 +1198,19 @@ background-color: #EEEEEE;
 .b4contentsidebarimg {
 	float: right;
 	background-color: #EEEEEE;
-	width: 400px;
-	height: 300px;
-
+	width: 280px;
+	height: 270px;
+	margin-bottom:10px;
 	
 }
 
 .b4contentsidebarimgtitle {
 	float: right;
 	background-color: #EEEEEE;
-	width: 60px;
-	height: 20px;
+	width: 80px;
+	height: 40px;
 	border-radius: 10px;
+
 }
 
 /* Comments
