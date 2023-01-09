@@ -1195,7 +1195,7 @@ background-color: #EEEEEE;
 	height: 500px;
 }
 
-b4.contentsidebarimg {
+.b4contentsidebarimg {
 	float: right;
 	background-color: #EEEEEE;
 	width: 400px;
@@ -1204,7 +1204,7 @@ b4.contentsidebarimg {
 	
 }
 
-b4.contentsidebarimgtitle {
+.b4contentsidebarimgtitle {
 	float: right;
 	background-color: #EEEEEE;
 	width: 60px;
