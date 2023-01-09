@@ -6,15 +6,6 @@
 *
 ----------------------------------------------- */
 
-.zerogmb {
-	box-shadow: -11px -15px 33px 63px rgba(0,0,0,0.1);
-	
-}
-
-
-
-
-
 /* Reset and Generals
 ---------------------------------------------- */
 /*********************************************/
@@ -1175,6 +1166,8 @@ font-size:20px;
 .b4homepagefeaturedvideoloads { 
 	
 	background-color: #EEEEEE;
+	width: 465px;
+	height: 262px;
 }
 
 
