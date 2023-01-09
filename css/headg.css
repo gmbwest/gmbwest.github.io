@@ -1189,9 +1189,27 @@ background-color: #EEEEEE;
 }
 
 .b4contentmainsectionimg {
+	
 	background-color: #EEEEEE;
 	width: 730px;
 	height: 500px;
+}
+
+b4.contentsidebarimg {
+	float: right;
+	background-color: #EEEEEE;
+	width: 400px;
+	height: 300px;
+
+	
+}
+
+b4.contentsidebarimgtitle {
+	float: right;
+	background-color: #EEEEEE;
+	width: 60px;
+	height: 20px;
+	border-radius: 10px;
 }
 
 /* Comments
