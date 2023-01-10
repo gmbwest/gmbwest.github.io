@@ -1174,8 +1174,7 @@ font-size:20px;
 
 
 .b4contentheaderlong {
-	
-       float: left;    
+	 
        background-color: #EEEEEE;
        width: 600px;
        height: 50px;
@@ -1185,7 +1184,6 @@ font-size:20px;
 
 .b4contentheadershort { 
 	
-	float: left;
 	background-color: #EEEEEE;
 	width: 300px;
 	height: 50px; 
