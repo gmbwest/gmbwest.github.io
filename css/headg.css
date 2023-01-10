@@ -1193,7 +1193,7 @@ font-size:20px;
 
 .b4contentmainsectionimg {
 	
-
+        display: inline-block;
 	background-color: #EEEEEE;
 	width: 730px;
 	height: 500px;
