@@ -306,9 +306,13 @@ padding: 0;
 	text-align: center;
 	margin: 50px 0;
         margin-left: 300px;
-
-
 }
+
+.serachformonsearchtext { 
+	text-align: center;
+	font-size: 25px;
+}
+
 
 /* Struture
 ----------------------------------------------- */
