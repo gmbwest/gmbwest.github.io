@@ -298,7 +298,7 @@ padding: 0;
     color: #ff4e50;
     font-weight: 400;
     text-align: center;
-    margin: 100px 0;	
+    margin: 140px 0;	
 	
 }
 
@@ -311,6 +311,7 @@ padding: 0;
 .serachformonsearchtext { 
 	text-align: center;
 	font-size: 25px;
+	margin-left: 219px;
 }
 
 
