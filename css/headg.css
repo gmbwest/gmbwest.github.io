@@ -776,6 +776,13 @@ border-bottom: 3px solid #ff4e50;
 	border: none;
 	text-transform: auto;
 }
+
+@media screen and (max-width: 1590px) {
+	
+	width: 189px;
+	
+}
+	
 #search-form input#search-button[type="submit"] {
 	background: #333;
 	color: #fff;
