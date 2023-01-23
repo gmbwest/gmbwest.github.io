@@ -86,7 +86,7 @@
       font-weight: 800;
     }
 
-    @media (min-width: 992px) {
+  @media all and (min-width: 992px) {
       .gmbw-music-widget .artwork {
         margin-bottom: 0;
         height: 130px;
@@ -111,7 +111,7 @@
       }
     }
 
-@media all and (max-width:992px)
+@media all and (max-width: 992px)
  
 
  .gmbw-music-widget .artwork {
@@ -123,12 +123,13 @@
       .gmbw-music-widget .details {
         padding-top: 15px;
          margin-bottom: 30px;
+      
       }
 
       /* .gmbw-music-widget .mejs-container  */
       .gmbw-music-widget .player-wrapper {
-        width: 75% !important;
-        float: left;
+        width: 100% !important;
+        float: none;
         margin-top: 0px !important;
       }
 
@@ -136,6 +137,7 @@
         content: "";
         display: block;
         clear: both;
+        
       }
     }
 
