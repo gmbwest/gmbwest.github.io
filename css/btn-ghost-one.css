@@ -111,35 +111,6 @@
       }
     }
 
-@media all and (max-width: 992px)
- 
-
- .gmbw-music-widget .artwork {
-        margin-bottom: 0;
-        height: 130px;
-        width: 19%;
-      }
-
-      .gmbw-music-widget .details {
-        padding-top: 15px;
-         margin-bottom: 30px;
-      
-      }
-
-      /* .gmbw-music-widget .mejs-container  */
-      .gmbw-music-widget .player-wrapper {
-        width: 100% !important;
-        float: none;
-        margin-top: 0px !important;
-      }
-
-      .gmbw-music-widget::after {
-        content: "";
-        display: block;
-        clear: both;
-        
-      }
-    }
 
   
   
