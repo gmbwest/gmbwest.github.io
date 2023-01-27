@@ -1,45 +1,41 @@
-  
 jQuery.getScript("//cdn.firebase.com/js/client/2.3.2/firebase.js").done(function(){
-  $.each($(".post-view[data-id]"), function(e, a) {
-    var i = $(a).parent().find("#postviews").addClass("view-load"),
-        t = new Firebase("https://post-view-st.firebaseio.com/pages/id/" + $(a).attr("data-id")),
-        delay = 30 * 60 * 1000; // 30 minutes in milliseconds
-    t.once("value", function(e) {
-      var o = e.val(),
-          d = false;
-      if (null == o) {
-        o = {};
-        o.value = 0;
-        o.url = window.location.href;
-        o.id = $(a).attr("data-id");
-        d = true;
+  var delay = 30 * 60 * 1000; // 30 minutes in milliseconds
+  var postViewElements = document.getElementsByClassName("post-view");
+  for (var i = 0; i < postViewElements.length; i++) {
+    var postViewElement = postViewElements[i];
+    var postId = postViewElement.getAttribute("data-id");
+    var postViewCountElement = postViewElement.parentNode.querySelector("#postviews");
+    postViewCountElement.classList.add("view-load");
+    var firebaseRef = new Firebase("https://post-view-st.firebaseio.com/pages/id/" + postId);
+    firebaseRef.once("value", function(snapshot) {
+      var postData = snapshot.val();
+      if (postData == null) {
+        postData = {
+          value: 0,
+          url: window.location.href,
+          id: postId
+        };
+        firebaseRef.set(postData);
       }
-      i.removeClass("view-load").text(o.value);
-      if (o.value < 16) {
-        o.value++;
-        if ("/" != window.location.pathname) {
-          if (d) {
-            t.set(o);
-          } else {
-            t.child("value").set(o.value);
-          }
-        }
+      postViewCountElement.classList.remove("view-load");
+      postViewCountElement.textContent = postData.value;
+      if (postData.value < 16) {
+        postData.value++;
+        firebaseRef.child("value").set(postData.value);
       } else {
         setTimeout(function() {
-          o.value++;
-          if ("/" != window.location.pathname) {
-            if (d) {
-              t.set(o);
-            } else {
-              t.child("value").set(o.value);
-            }
-          }
+          postData.value++;
+          firebaseRef.child("value").set(postData.value);
           setInterval(function() {
-            o.value = 0;
-            t.set(o);
+            postData.value = 0;
+            firebaseRef.set(postData);
           }, delay);
         }, delay);
       }
     });
-  });
+  }
 });
+
+
+
+
