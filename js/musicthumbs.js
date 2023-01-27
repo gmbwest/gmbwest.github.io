@@ -1,7 +1,7 @@
 
   function showPopularPosts(json) {
     var postList = json.feed.entry;
-    var cssClass = "Popular-Posts";
+    var cssClass = "PopularPosts";
     var thumbnailSize = "s100";
     var numPosts = 5;
 
